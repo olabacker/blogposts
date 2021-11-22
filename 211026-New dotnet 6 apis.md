@@ -1,0 +1,79 @@
+New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer
+
+## DateOnly / TimeOnly
+
+Finally we get DateTime split in two pieces!
+
+```cs
+var date = new DateOnly(2021, 10, 27);
+var currentDate = DateOnly.FromDateTime(DateTime.Now);
+```
+
+```cs
+var startTime = new TimeOnly(10, 30);
+var endTime = new TimeOnly(17, 00, 00);
+var isBetween = currentTime.IsBetween(startTime, endTime);
+```
+
+
+## Parallel.ForEachAsync
+
+```cs
+var urlsToDownload = new [] 
+{
+    "https://github.com/olabacker",
+    "https://twitter.com/olabacker"
+};
+
+var client = new HttpClient();
+
+await Parallel.ForEachAsync(urlsToDownload, async (url, token) =>
+{
+    var targetPath = Path.Combine(Path.GetTempPath(), "http_cache", url);
+
+    HttpResponseMessage response = await client.GetAsync(url);
+
+    if (response.IsSuccessStatusCode)
+    {
+        using FileStream target = File.OpenWrite(targetPath);
+
+        await response.Content.CopyToAsync(target);
+    }
+});
+```
+
+## Periodic timer
+
+```cs
+var timer = new PeriodicTimer(TimeSpan.FromSeconds(1));
+
+while (await timer.WaitForNextTickAsync())
+{
+    Console.WriteLine(DateTime.UtcNow);
+}
+```
+
+## MaxBy / MinBy
+
+```cs
+var people = GetPeople();
+
+var oldest = people.MaxBy(p => p.Age);
+var youngest = people.MinBy(p => p.Age);
+
+Console.WriteLine($"The oldest person is {oldest.Age}");
+```
+
+## Chunk
+
+```cs
+int chunkNumber = 1;
+foreach (int[] chunk in Enumerable.Range(0, 9).Chunk(3))
+{
+    Console.WriteLine($"Chunk {chunkNumber++}");
+    foreach (var item in chunk)
+    {
+        Console.WriteLine(item);
+    }
+}
+```
