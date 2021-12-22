@@ -1,0 +1,78 @@
+[
+  {
+    "Name": "190905-C# 8 features.md",
+    "Description": "Switch expression"
+  },
+  {
+    "Name": "200115-Common PowerShell commands.md",
+    "Description": "small compilation of powershell commands"
+  },
+  {
+    "Name": "200507-Markdown cheat sheet.md",
+    "Description": "Cheatsheet for writing markdown!"
+  },
+  {
+    "Name": "200805-Mysql cmds.md",
+    "Description": "Run sql file in powershell"
+  },
+  {
+    "Name": "200816-Extension methods.md",
+    "Description": "My most useful extension methods to have for any project 🖖"
+  },
+  {
+    "Name": "201117-Docker commands.md",
+    "Description": "Compilation of useful docker commands 🐳"
+  },
+  {
+    "Name": "201201-Creating a dotnet tool.md",
+    "Description": "Steps to create a dotnet tool from a console application"
+  },
+  {
+    "Name": "201212-Update powershell in powershell.md",
+    "Description": "Yo taylor"
+  },
+  {
+    "Name": "210126-Chocolatey scripts.md",
+    "Description": "My delicious chocolatey scripts 🍫"
+  },
+  {
+    "Name": "210201-Dotnet cli cheat sheet.md",
+    "Description": "Some useful dotnet cli commands"
+  },
+  {
+    "Name": "210312-Reflection.md",
+    "Description": "Useful reflection methods 🪞"
+  },
+  {
+    "Name": "210403-Customize Windows Terminal.md",
+    "Description": "Guide to making windows terminal more useful and cooler looking 😎"
+  },
+  {
+    "Name": "210528-MariaDb docker compose.md",
+    "Description": "Simple compose file for maria db."
+  },
+  {
+    "Name": "210706-Certbot openssl manual renewal.md",
+    "Description": "Create a pfx file wih openssl by dns challenge 🔑"
+  },
+  {
+    "Name": "210815-Minimal api net6.md",
+    "Description": "The tiniest web api using the new minimal api syntax"
+  },
+  {
+    "Name": "211025-C# 10 features.md",
+    "Description": "Global usings, file scoped namespace and const interpolated strings"
+  },
+  {
+    "Name": "211026-New dotnet 6 apis.md",
+    "Description": "New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer"
+  },
+  {
+    "Name": "211030-Uncommon datastructures.md",
+    "Description": "Exploring the less common datastructure types"
+  },
+  {
+    "Name": "211108-Init git repo.md",
+    "Description": "git init -b main"
+  }
+]
