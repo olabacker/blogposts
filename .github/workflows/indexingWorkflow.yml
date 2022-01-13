@@ -29,4 +29,17 @@ jobs:
         shell: pwsh
         run: |
           ./indexingScript.ps1
+          
+      - name: Commit files # commit the output folder
+        run: |
+          git config --local user.email "olabacker@gmail.com"
+          git config --local user.name "Ola Bäcker"
+          git add .
+          git commit -m "Github actions: modified index file!"
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          #branch: B77 #ignore if your branch is master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
 
