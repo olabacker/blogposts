@@ -73,6 +73,6 @@
   },
   {
     "Name": "211108-Init git repo.md",
-    "Description": "git init -b main"
+    "Description": "Command for initing git repo"
   }
 ]
