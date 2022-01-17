@@ -1,3 +1,5 @@
+Command for initing git repo
+
 git init -b main
 
 gh repo create project-name

@@ -4,19 +4,18 @@ $collectionVariable = New-Object System.Collections.ArrayList
 $files = Get-ChildItem -Path *.md
 
 foreach ($f in $files){
-    $test = Get-Content $f.FullName -First 1
+    $description = Get-Content $f.FullName -First 1
 
     $blogPost = [PSCustomObject]@{
         Name = $f.Name
-        Description = $test
+        Description = $description
     }
 
     $collectionVariable.Add($blogPost) | Out-Null
 }
 
+$result = ConvertTo-Json $collectionVariable
 
-$hmm = ConvertTo-Json $collectionVariable
+Write-Host $result
 
-Write-Host $hmm
-
-$hmm | Out-File -FilePath index.json
+$result | Out-File -FilePath index.json
