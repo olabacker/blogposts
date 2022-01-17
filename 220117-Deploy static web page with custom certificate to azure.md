@@ -1,5 +1,8 @@
 Process of setting up a static web app to azure 
 
+<img style="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png" alt="drawing" width="200"/>
+
+
 1. Create a storage account
     - Name it and use rest as default options
 2. Go to static website option in the storage account.
