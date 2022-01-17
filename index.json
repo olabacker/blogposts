@@ -74,5 +74,9 @@
   {
     "Name": "211108-Init git repo.md",
     "Description": "Command for initing git repo"
+  },
+  {
+    "Name": "220117-Deploy static web page with custom certificate to azure.md",
+    "Description": "Process of setting up a static web app to azure "
   }
 ]
