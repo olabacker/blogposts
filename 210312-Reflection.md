@@ -1,7 +1,7 @@
 Useful reflection methods 🪞
 
 
-Get all subclasses by type
+Get all subclasses by type!
 
 ```cs
 
