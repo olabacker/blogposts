@@ -53,7 +53,7 @@
   },
   {
     "Name": "210706-Certbot openssl manual renewal.md",
-    "Description": "Create a pfx file wih openssl by dns challenge 🔑"
+    "Description": "Create a pfx file wih openssl by using manual dns challenge 🔑"
   },
   {
     "Name": "210815-Minimal api net6.md",
