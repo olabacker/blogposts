@@ -1,6 +1,5 @@
 Global usings, file scoped namespace and const interpolated strings
 
-
 ## Global usings
 
 Simply add the global keyword to make a using statement global.

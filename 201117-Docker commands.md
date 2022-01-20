@@ -34,12 +34,12 @@ docker build -t [tag] -f [dockerfile path] [build root]
 
 ## Garbage collection in registry
 
+If your private docker registry is full and contains layers marked for deletion, run this command with the config file present.
 ```ps
-
 registry garbage-collect config.yml
 ```
 
-config yml example
+Config yml example
 
 ```yml
 version: 0.1

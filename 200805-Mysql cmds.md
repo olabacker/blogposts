@@ -1,4 +1,4 @@
-Run sql file in powershell
-```
-mysql -uroot -proot -e "source *filePath*" *dbname*
+Run local sql file in powershell
+```ps
+mysql -uroot -proot -e "source [filePath].sql" [dbname]
 ```
