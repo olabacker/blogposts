@@ -72,8 +72,8 @@
     "Description": "Exploring the less common datastructure types"
   },
   {
-    "Name": "211108-Init git repo.md",
-    "Description": "Command for initing git repo in an existing folder using gh cli"
+    "Name": "211108-Initialize git repository.md",
+    "Description": "Command for initalizing a git repository in an existing folder using github cli"
   },
   {
     "Name": "220117-Deploy static web page to azure.md",
