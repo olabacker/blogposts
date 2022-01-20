@@ -13,7 +13,7 @@
   },
   {
     "Name": "200805-Mysql cmds.md",
-    "Description": "Run sql file in powershell"
+    "Description": "Run local sql file in powershell"
   },
   {
     "Name": "200816-Extension methods.md",
@@ -33,7 +33,7 @@
   },
   {
     "Name": "210126-Chocolatey scripts.md",
-    "Description": "My delicious chocolatey scripts 🍫"
+    "Description": "Delicious chocolatey scripts 🍫"
   },
   {
     "Name": "210201-Dotnet cli cheat sheet.md",
@@ -73,10 +73,10 @@
   },
   {
     "Name": "211108-Init git repo.md",
-    "Description": "Command for initing git repo"
+    "Description": "Command for initing git repo in an existing folder using gh cli"
   },
   {
-    "Name": "220117-Deploy static web page with custom certificate to azure.md",
-    "Description": "Process of setting up a static web app to azure "
+    "Name": "220117-Deploy static web page to azure.md",
+    "Description": "Process of setting up a static web app on azure with custom DNS and certificate"
   }
 ]
