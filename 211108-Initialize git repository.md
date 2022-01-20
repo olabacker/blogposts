@@ -1,4 +1,4 @@
-Command for initing git repo in an existing folder using gh cli
+Command for initalizing a git repository in an existing folder using github cli
 
 ```ps
 git init -b main
