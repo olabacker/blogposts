@@ -1,4 +1,4 @@
-My delicious chocolatey scripts 🍫
+Delicious chocolatey scripts 🍫
 
 ## New windows essential installation script!
 
