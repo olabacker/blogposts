@@ -4,7 +4,7 @@
     "Description": "Switch expression"
   },
   {
-    "Name": "200115-Common PowerShell commands.md",
+    "Name": "200115-Useful PowerShell commands.md",
     "Description": "small compilation of powershell commands"
   },
   {
@@ -26,10 +26,6 @@
   {
     "Name": "201201-Creating a dotnet tool.md",
     "Description": "Steps to create a dotnet tool from a console application"
-  },
-  {
-    "Name": "201212-Update powershell in powershell.md",
-    "Description": "Yo taylor"
   },
   {
     "Name": "210126-Chocolatey scripts.md",
