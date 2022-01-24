@@ -66,6 +66,8 @@ health:
 
 ## Enable localhost communication in yml
 
+If your container needs to communicate with its host the following can be added to its compose file. 
+
 ```yml
 service_name:
   extra_hosts:
