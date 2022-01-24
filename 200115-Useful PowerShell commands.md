@@ -2,7 +2,7 @@ small compilation of powershell commands
 
 ## Updating powershell in powershell
 
-This is done easiest with winget
+This is probably easiest to do with winget!
 
 ```ps
 winget install --id Microsoft.PowerShell --exact
