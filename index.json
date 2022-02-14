@@ -70,5 +70,9 @@
   {
     "Name": "220117-Deploy static web page to azure.md",
     "Description": "Process of setting up a static web app on azure with custom DNS and certificate"
+  },
+  {
+    "Name": "220214-Automate blazor deployment to azure with github actions.md",
+    "Description": "Use github actions to deploy a blazor application to azure static web pages"
   }
 ]
