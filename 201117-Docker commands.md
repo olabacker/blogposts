@@ -14,6 +14,14 @@ This cleans
 * all images without at least one container associated to them
 * all build cache
 
+## Enter a container
+
+Command for entering a shell inside the container
+
+```ps
+docker exec -it [CONTAINER] bash
+```
+
 
 ## Build
 
