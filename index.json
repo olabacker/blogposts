@@ -78,5 +78,9 @@
   {
     "Name": "220216-Manual ip configuration in linux.md",
     "Description": "Commands for setting ip address manually"
+  },
+  {
+    "Name": "220217-Semantic commit messages.md",
+    "Description": "# Syntax"
   }
 ]
