@@ -11,12 +11,12 @@ Firstly, we need to change the IPv4 configuration mode on the chosen interface t
 
 ```ps
 nmcli con mod [eth] ipv4.method manual
-
+```
 Now change the IP address and the gateway with the new IP address.
 ```ps
 nmcli con mod [eth] ipv4.address 192.168.10.100/24
 nmcli con mod [eth] ipv4.gateway 192.168.10.1
-
+```
 Update the DNS server with your own.
 ```ps
 nmcli con mod [eth] ipv4.dns "1.1.1.1 192.168.10.1"
