@@ -1,3 +1,5 @@
+Syntax for using semantic commit messages
+
 # Syntax
 
 The following structure should be used when using semantic commit messages.
@@ -10,26 +12,25 @@ type(scope): subject
 
 ## ✨ feat
 
-The feat type is used to identify production changes when new functionality has been added.
+The feat type is used when any new functionality has been added to the codebase.
 
 ## 🪲 fix
-The fix type is used to identify production changes related to backward-compatible bug fixes.
+The fix type is used for bug fixes to existing features.
 
 ## ⚡️ perf
-The perf type is used to identify production changes related to performance improvements.
+This type is used when the commit contains performance improvements to existing code.
 
 ## 🚀 ci
-The ci type is used to identify development changes related to the continuous integration and deployment system - involving scripts, configurations or tools.
+The ci type is used to identify development changes related to the continuous integration and deployment system such as scripts, configurations or tools.
 
 ## ♻️ refactor
-
-The refactor type is used to identify development changes related to modifying the codebase other than fixing or 
+The refactor type is used to identify development changes related to modifying the codebase by moving code, changing variable names or similarly without changing functionality.
 
 ## 🎨 style
 The style type is used to identify development changes related to styling the codebase, regardless of the meaning - such as indentations, semi-colons, quotes, trailing commas and so on.
 
 ## 🧪 test
-The test type is used to identify development changes related to tests - such as refactoring existing tests or adding new tests.
+The test type is used when tests have been changed.
 
 ## 📃 docs
 
