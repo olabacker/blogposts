@@ -2,16 +2,15 @@ Use github actions to deploy a blazor application to azure static web pages
 
 ## Retreive Azure Service Principal 
 
-Run the following command in az pwsh
+Run the following command in az pwsh after replacing {subscription-id}, {resource-group} with the subscription, resource group details
 
 ```ps
-
 az ad sp create-for-rbac --name "myApp" --role contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{resource-group} --sdk-auth
-                            
-  # Replace {subscription-id}, {resource-group} with the subscription, resource group details
+```
 
-  # The command should output a JSON object similar to this:
+The command should output a JSON object similar to this:
 
+```json
   {
     "clientId": "<GUID>",
     "clientSecret": "<GUID>",
@@ -19,7 +18,6 @@ az ad sp create-for-rbac --name "myApp" --role contributor --scopes /subscriptio
     "tenantId": "<GUID>",
     (...)
   }
-  
 ```
 
 Place the resulting json object as a secret in your github action project under the key AZURE_CREDENTIALS.
