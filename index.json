@@ -86,5 +86,9 @@
   {
     "Name": "220218-C#11 features.md",
     "Description": "Bang bang (!!) operator 🤠"
+  },
+  {
+    "Name": "220223-Mouseless browsing.md",
+    "Description": "Extension for browsing the web with keyboard only ⌨️"
   }
 ]
