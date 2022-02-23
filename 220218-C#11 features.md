@@ -13,7 +13,7 @@ void Foo(object arg)
 }
 ```
 
-In C# 11 the same is achieved by adding '!!' after the argument name. 
+In C# 11 the same is achieved by adding `!!` after the argument name. 
 ```cs
 void Foo(object arg!!)
 {
@@ -21,3 +21,13 @@ void Foo(object arg!!)
 }
 ```
 
+## Field keyword
+
+The `field` keyword generates a backing field in an property automaticly.
+
+```cs
+public string PropertyConstraint {
+    get;
+    set => field = value ?? throw new ArgumentNullException();
+} = "";
+```

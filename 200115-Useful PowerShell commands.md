@@ -8,7 +8,6 @@ This is probably easiest to do with winget!
 winget install --id Microsoft.PowerShell --exact
 ```
 
-
 ## cat 😸
 
 Alias for Get-Content
@@ -17,16 +16,13 @@ Alias for Get-Content
 cat [FileName]
 ```
 
-
 ## ls
 
 Alias for Get-ChildItem
 
-
 ```ps
 ls -Filter [SearchPattern]
 ```
-
 
 ## ni
 
