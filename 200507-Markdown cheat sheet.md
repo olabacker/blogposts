@@ -19,6 +19,14 @@ Cheatsheet for writing markdown!
 ###### H6
 
 
+## Links
+
+```md
+[title](https://www.olabacker.net)
+```
+
+[Link](https://www.olabacker.net)
+
 
 ## Emphasis
 
