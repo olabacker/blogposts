@@ -8,6 +8,15 @@ This is probably easiest to do with winget!
 winget install --id Microsoft.PowerShell --exact
 ```
 
+## Managing services
+
+Requires ps in administrator
+
+```ps
+Restart-Service [servicename]
+```
+
+
 ## cat 😸
 
 Alias for Get-Content
