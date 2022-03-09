@@ -1,4 +1,6 @@
-Commands for setting ip address manually
+Commands for setting ip address manually and opening ports 🐧
+
+# Setting manual ip address
 
 Start by finding out which interface to target and replace further occurences of [eth] with your own.
 
@@ -34,4 +36,12 @@ nmcli con up [eth]
 Lastly, check the interface information with 
 ```ps
 nmcli device show [eth]
+```
+
+# Open ports
+
+Command for opening ports
+
+```ps
+firewall-cmd --zone=public --permanent --add-port 7946/tcp
 ```

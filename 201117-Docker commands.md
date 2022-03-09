@@ -2,9 +2,30 @@ Compilation of useful docker commands 🐳
 
 🐳
 
+
+## Build
+
+Basic command for building an image from a Dockerfile
+
+```ps
+docker build -t [tag] -f [dockerfile path] [build root]
+```
+
+## Docker swarm node ports
+
+Required ports for a docker swarm node to function properly
+
+* TCP `2376`
+* TCP `2377`
+* TCP `7946`
+* UDP `7946`
+* UDP `4789`
+
 ## Docker cleanup
 
-```
+If docker is taking too much space a system prune might be a good idea.
+
+```ps
 docker system prune -a
 ```
 This cleans 
@@ -19,18 +40,12 @@ This cleans
 Command for entering a shell inside the container
 
 ```ps
-docker exec -it [CONTAINER] bash
+docker exec -it [CONTAINER] sh
 ```
-
-
-## Build
-
-```
-docker build -t [tag] -f [dockerfile path] [build root]
-```
-
 
 ## Specify port on target host
+
+To make a port only available on the host(s) a service is running on, it should specify the mode to `host`. 
 
 ```yml
 - target: 443
@@ -40,7 +55,7 @@ docker build -t [tag] -f [dockerfile path] [build root]
 ```
 
 
-## Garbage collection in registry
+## Garbage collection in a private docker registry
 
 If your private docker registry is full and contains layers marked for deletion, run this command with the config file present.
 ```ps
