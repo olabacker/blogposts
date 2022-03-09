@@ -76,8 +76,8 @@
     "Description": "Use github actions to deploy a blazor application to azure static web pages"
   },
   {
-    "Name": "220216-Manual ip configuration in linux.md",
-    "Description": "Commands for setting ip address manually"
+    "Name": "220216-Network configuration in linux.md",
+    "Description": "Commands for setting ip address manually and opening ports 🐧"
   },
   {
     "Name": "220217-Semantic commit messages.md",
