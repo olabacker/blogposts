@@ -38,9 +38,9 @@ Lastly, check the interface information with
 nmcli device show [eth]
 ```
 
-# Open ports
+# Open ports 🚪
 
-Command for opening ports
+Command for opening ports 
 
 ```ps
 firewall-cmd --zone=public --permanent --add-port 7946/tcp
