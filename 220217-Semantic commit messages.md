@@ -35,3 +35,18 @@ The test type is used when tests have been changed.
 ## 📃 docs
 
 The docs type is used to identify documentation changes related to the project - whether intended externally for the end users (in case of a library) or internally for the developers.
+
+# Usage
+
+What is the point of using semantic commit messages?
+
+## Git history
+
+```ps
+git log --oneline --grep "^feat" 
+```
+
+## CD/CI
+
+These commits could lay ground for the ci/cd process
+
