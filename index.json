@@ -4,7 +4,7 @@
     "Description": "Switch expression"
   },
   {
-    "Name": "200115-Useful PowerShell commands.md",
+    "Name": "200115-Useful PowerShell scripts and commands.md",
     "Description": "small compilation of powershell commands"
   },
   {
@@ -88,7 +88,11 @@
     "Description": "Bang bang (!!) operator 🤠"
   },
   {
-    "Name": "220223-Mouseless browsing.md",
+    "Name": "220223-Mouseless browsing with Vimium.md",
     "Description": "Extension for browsing the web with keyboard only ⌨️"
+  },
+  {
+    "Name": "220310-Serilog sink.md",
+    "Description": null
   }
 ]
