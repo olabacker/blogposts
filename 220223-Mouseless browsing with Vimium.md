@@ -1,13 +1,12 @@
 Extension for browsing the web with keyboard only ⌨️
 
+While many software engineers are keen on using only their keyboards only during work browsing the web is usually more tedious when trying to tab through pages to reach a certain link.
 
-While many software engineers are keen on using only their keyboards only during work browsing the web is usually more tedious when trying to tab through pages.
+# Vimium
 
-# What is vimium?
+[Vimium](https://github.com/philc/vimium) is a browser extension for browsing the web without using keyboard giving a similar experience to using vim.
 
-
-
-# Shortcuts
+# Example shortcuts
 
 ![alt text](images/vimium-example.png "Logo Title Text 1")
 
@@ -19,20 +18,6 @@ While many software engineers are keen on using only their keyboards only during
 
 `h` / `l` - Scroll left and right respectively 
 
-
-
-
-# Opening links
-
-Without any extension this is super tedious since you need to tab all through pages to reach a certain link.
-
-
-I recommend using [Vimium](https://github.com/philc/vimium) which adds many keyboard capabilites to the browser. Primarily for me it gives you the ability to press `Shift`+`F` which maps the entire views links with shortcut combinations allowing you to quickly navigate to them.
-
-
-# Viewing pages
-
-Simply using `PgUp` and `PgDn` is sufficient but vimium also provides smooth scrolling with `J` and `K`.
 
 
 
