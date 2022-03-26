@@ -1,9 +1,16 @@
 New http protocol
 
 
+## Comparison
+
+HTTP/1 and HTTP/2 use TCP while HTTP/3 uses QUIC.
+
+The switch to QUIC aims to fix a major problem of HTTP/2 called "head-of-line blocking": because the parallel nature of HTTP/2's multiplexing is not visible to TCP's loss recovery mechanisms, a lost or reordered packet causes all active transactions to experience a stall regardless of whether that transaction was impacted by the lost packet. Because QUIC provides native multiplexing, lost packets only impact the streams where data has been lost.
+
+
 ## Drafts, not standard
 
-As of January 2022, the HTTP/3 protocol has not yet been finalized. Everything and everyone that speaks HTTP/3 at this point does it with the knowledge and awareness that it might change going forward.
+As of February 2022, the HTTP/3 protocol has not yet been finalized. Everything and everyone that speaks HTTP/3 at this point does it with the knowledge and awareness that it might change going forward.
 
 ## QUIC
 
