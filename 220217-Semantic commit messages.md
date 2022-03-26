@@ -40,7 +40,13 @@ The docs type is used to identify documentation changes related to the project -
 
 What is the point of using semantic commit messages?
 
+## Separability
+
+If the repo is using only semantic commits the structure forces developers to  make more homogenous decisions based on what a commit should and should not contain. Too often I see multiple 'commits' (maybe one fix and a refactor) packed in into one resulting in less control of the code base. This is obviously very bad when one of those code changes needs reverting, since that 
+
 ## Git history
+
+When all commits in a repo are using semantic commits there are some gained advantages similar to when using structured logging. This makes us able to filter certain commits by type for example.   
 
 ```ps
 git log --oneline --grep "^feat" 
@@ -48,5 +54,5 @@ git log --oneline --grep "^feat"
 
 ## CD/CI
 
-These commits could lay ground for the ci/cd process
+These commits could lay ground for the ci/cd process. An example is where `feat` commit may increase a major/minor of the version automatically, `fix` increases re other types may increase patch/build/revision numbers of the version.
 
