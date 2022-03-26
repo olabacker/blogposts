@@ -28,6 +28,7 @@ If docker is taking too much space a system prune might be a good idea.
 ```ps
 docker system prune -a
 ```
+
 This cleans 
 
 * all stopped containers
@@ -58,6 +59,7 @@ To make a port only available on the host(s) a service is running on, it should 
 ## Garbage collection in a private docker registry
 
 If your private docker registry is full and contains layers marked for deletion, run this command with the config file present.
+
 ```ps
 registry garbage-collect config.yml
 ```

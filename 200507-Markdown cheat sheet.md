@@ -86,3 +86,9 @@ To have a line break without a paragraph, you will need to use two trailing spac
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
+
+## Images
+
+```md
+![alt text](images/coolimage.png "Awesome log")
+```
