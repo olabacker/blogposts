@@ -53,7 +53,7 @@
   },
   {
     "Name": "210815-Minimal api net6.md",
-    "Description": "The tiniest web api using the new minimal api syntax"
+    "Description": "Examples of how to utilize the minimal api syntax"
   },
   {
     "Name": "211025-C# 10 features.md",
@@ -90,9 +90,5 @@
   {
     "Name": "220223-Mouseless browsing with Vimium.md",
     "Description": "Extension for browsing the web with keyboard only ⌨️"
-  },
-  {
-    "Name": "220310-Serilog sink.md",
-    "Description": null
   }
 ]
