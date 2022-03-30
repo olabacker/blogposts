@@ -11,7 +11,9 @@ global using System.Text.Json;
 It can also be added to the csproj-file.
 
 ```xml
-<Using Include="System.Text.Json">
+<ItemGroup>
+    <Using Include="System.Text.Json" />
+</ItemGroup>
 ```
 
 ## File scoped namespaces
