@@ -21,6 +21,16 @@ Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
 Install-Module -Name Terminal-Icons -Repository PSGallery
+$env:POSH_GIT_ENABLED = $true
+
+if ($host.Name -eq 'ConsoleHost')
+{
+    Import-Module PSReadLine
+    Set-PSReadLineOption -PredictionSource History
+    Set-PSReadLineOption -PredictionViewStyle ListView
+    Set-PSReadLineOption -EditMode Windows
+    Set-PSReadLineKeyHandler -Key Ctrl+d -Function KillLine
+}
 ```
 
 # Set $PROFILE
