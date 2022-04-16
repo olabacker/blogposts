@@ -21,6 +21,19 @@ void Foo(object arg!!)
 }
 ```
 
+## Raw string literal
+
+When copying in strings like json into code you usually have to escape some characters either with the help of `\` or with `@`. Now you can just use `"""` triple double-quotes to produce the raw string literal syntax and no longer need to escape anything.
+
+```cs
+var json = """
+           {
+             "name" : "ola",
+             "mail" : "mail@olabacker.net" 
+           }
+           """;
+```
+
 ## Field keyword
 
 The `field` keyword generates a backing field in an property automaticly.
@@ -31,3 +44,4 @@ public string PropertyConstraint {
     set => field = value ?? throw new ArgumentNullException();
 } = "";
 ```
+
