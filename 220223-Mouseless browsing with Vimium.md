@@ -18,6 +18,9 @@ While many software engineers are keen on using only their keyboards only during
 
 `h` / `l` - Scroll left and right respectively 
 
+# Conclusion 
+
+This extension really allowed me to actually put the mouse aside in the common workflows. 
 
 
 
