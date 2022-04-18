@@ -1,7 +1,7 @@
 [
   {
     "Name": "190905-C# 8 features.md",
-    "Description": "Switch expression"
+    "Description": "Switch expression, indices and ranges"
   },
   {
     "Name": "200115-Useful PowerShell scripts and commands.md",
@@ -52,7 +52,7 @@
     "Description": "Create a pfx file wih openssl by using manual dns challenge 🔑"
   },
   {
-    "Name": "210815-Minimal api net6.md",
+    "Name": "210815-Minimal apis in ASP.NET.md",
     "Description": "Examples of how to utilize the minimal api syntax"
   },
   {
@@ -84,7 +84,7 @@
     "Description": "Syntax for using semantic commit messages"
   },
   {
-    "Name": "220218-C#11 features.md",
+    "Name": "220218-C# 11 features.md",
     "Description": "Bang bang (!!) operator 🤠"
   },
   {
