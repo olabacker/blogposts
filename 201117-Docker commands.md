@@ -1,8 +1,5 @@
 Compilation of useful docker commands 🐳
 
-🐳
-
-
 ## Build
 
 Basic command for building an image from a Dockerfile
@@ -89,7 +86,7 @@ health:
     threshold: 3
 ```
 
-## Enable localhost communication in yml
+## Enable localhost communication in docker compose
 
 If your container needs to communicate with its host the following can be added to its compose file. 
 
