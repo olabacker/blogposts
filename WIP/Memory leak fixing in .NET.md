@@ -40,5 +40,43 @@ ref struct => stack
 
 ## Duplicate strings
 
-Metadata with assembly type as string
 
+In one case objects containing only metadata of actual objects which was not currently read into memory. It looked like similar to this class below. 
+
+```cs
+var meta = new Metadata(id, type);
+
+class Metadata
+{
+    private int _id;
+    private string _objectType;
+
+    public Metadata(int id, Type type)
+    {
+        _id = id;
+        _objectType = type.AssemblyQualifiedName;
+    }
+}
+```
+
+At first glance the class might look innocent but turned out to be a major memory hog. The usage of `type.AssemblyQualifiedName` causes a heap allocation to store the `_objectType` string for every created `Metadata` object. Whilst this might not be that bad for a very low amount of objects and with varied types we had the opposite.
+
+After this discovery switching the constructor immediately was changed to use a reference from a mapped dictionary of the type name instead.
+
+```cs
+var meta = new Metadata(id, typeToAssemblyQualMap[type]);
+
+class Metadata
+{
+    private int _id;
+    private string _objectType;
+
+    public Metadata(int id, string type)
+    {
+        _id = id;
+        _objectType = type.AssemblyQualifiedName;
+    }
+}
+```
+
+This caused no extra string duplication at all vastly lowering memory usage by these objects and some speed performance as well due to the fewer allocations.
