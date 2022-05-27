@@ -92,3 +92,4 @@ To have a line break without a paragraph, you will need to use two trailing spac
 ```md
 ![alt text](images/coolimage.png "Awesome log")
 ```
+
