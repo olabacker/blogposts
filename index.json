@@ -93,6 +93,6 @@
   },
   {
     "Name": "220526-Simple .NET Desktop app update server.md",
-    "Description": "Update server in docker for a c# client built with github actions"
+    "Description": "Update server in docker for a .NET client built with github actions"
   }
 ]
