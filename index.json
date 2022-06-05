@@ -81,28 +81,28 @@
   },
   {
     "Name": "211108-Git gud.md",
-    "Description": "Mastery of git commands 🧙‍♂️",
-    "Tags": null
+    "Description": "Mastery of git commands 🧙‍♂️ ",
+    "Tags": "git"
   },
   {
     "Name": "220117-Deploy static web page to azure.md",
     "Description": "Process of setting up a static web app on azure with custom DNS and certificate",
-    "Tags": null
+    "Tags": "git"
   },
   {
     "Name": "220214-Automate blazor deployment to azure with github actions.md",
     "Description": "Use github actions to deploy a blazor application to azure static web pages",
-    "Tags": null
+    "Tags": "git"
   },
   {
     "Name": "220216-Network configuration in linux.md",
     "Description": "Commands for setting ip address manually and opening ports 🐧",
-    "Tags": null
+    "Tags": "git"
   },
   {
     "Name": "220217-Semantic commit messages.md",
     "Description": "Syntax for using semantic commit messages",
-    "Tags": null
+    "Tags": "git"
   },
   {
     "Name": "220218-C# 11 features.md",
