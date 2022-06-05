@@ -82,49 +82,29 @@
   {
     "Name": "211108-Git gud.md",
     "Description": "Mastery of git commands 🧙‍♂️ ",
-<<<<<<< HEAD
     "Tags": [
       "git"
     ]
-=======
-    "Tags": "git"
->>>>>>> master
   },
   {
     "Name": "220117-Deploy static web page to azure.md",
     "Description": "Process of setting up a static web app on azure with custom DNS and certificate",
-<<<<<<< HEAD
     "Tags": []
-=======
-    "Tags": "git"
->>>>>>> master
   },
   {
     "Name": "220214-Automate blazor deployment to azure with github actions.md",
     "Description": "Use github actions to deploy a blazor application to azure static web pages",
-<<<<<<< HEAD
     "Tags": []
-=======
-    "Tags": "git"
->>>>>>> master
   },
   {
     "Name": "220216-Network configuration in linux.md",
     "Description": "Commands for setting ip address manually and opening ports 🐧",
-<<<<<<< HEAD
     "Tags": []
-=======
-    "Tags": "git"
->>>>>>> master
   },
   {
     "Name": "220217-Semantic commit messages.md",
     "Description": "Syntax for using semantic commit messages",
-<<<<<<< HEAD
     "Tags": []
-=======
-    "Tags": "git"
->>>>>>> master
   },
   {
     "Name": "220218-C# 11 features.md",
