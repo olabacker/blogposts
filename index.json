@@ -2,130 +2,125 @@
   {
     "Name": "190905-C# 8 features.md",
     "Description": "Switch expression, indices and ranges",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "200115-Useful PowerShell scripts and commands.md",
     "Description": "small compilation of powershell commands",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "200507-Markdown cheat sheet.md",
     "Description": "Cheatsheet for writing markdown!",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "200805-Mysql cmds.md",
     "Description": "Run local sql file in powershell",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "200816-Extension methods.md",
     "Description": "My most useful extension methods to have for any project 🖖",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "201117-Docker commands.md",
     "Description": "Compilation of useful docker commands 🐳",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "201201-Creating a dotnet tool.md",
     "Description": "Steps to create a dotnet tool from a console application",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "210126-Chocolatey scripts.md",
     "Description": "Delicious chocolatey scripts 🍫",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "210201-Dotnet cli cheat sheet.md",
     "Description": "Some useful dotnet cli commands",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "210312-Reflection.md",
     "Description": "Useful reflection methods 🪞",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "210403-Customize Windows Terminal.md",
     "Description": "Guide to making windows terminal more useful and cooler looking 😎",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "210528-MariaDb docker compose.md",
     "Description": "Simple compose file for maria db.",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "210706-Certbot openssl manual renewal.md",
     "Description": "Create a pfx file wih openssl by using manual dns challenge 🔑",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "210815-Minimal apis in ASP.NET.md",
     "Description": "Examples of how to utilize the minimal api syntax",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "211025-C# 10 features.md",
     "Description": "Global usings, file scoped namespace and const interpolated strings",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "211026-New .NET 6 apis.md",
     "Description": "New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "211108-Git gud.md",
-    "Description": "Mastery of git commands 🧙‍♂️",
-    "Tags": null
+    "Description": "Mastery of git commands 🧙‍♂️ ",
+    "Tags": [
+      "git"
+    ]
   },
   {
     "Name": "220117-Deploy static web page to azure.md",
     "Description": "Process of setting up a static web app on azure with custom DNS and certificate",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "220214-Automate blazor deployment to azure with github actions.md",
     "Description": "Use github actions to deploy a blazor application to azure static web pages",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "220216-Network configuration in linux.md",
     "Description": "Commands for setting ip address manually and opening ports 🐧",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "220217-Semantic commit messages.md",
     "Description": "Syntax for using semantic commit messages",
-    "Tags": null
+    "Tags": []
   },
   {
     "Name": "220218-C# 11 features.md",
     "Description": "Bang bang (!!) operator 🤠 ",
     "Tags": [
-      "c#",
-      "dotnet"
+      "c#"
     ]
   },
   {
     "Name": "220223-Mouseless browsing with Vimium.md",
     "Description": "Extension for browsing the web with keyboard only ⌨️",
-    "Tags": [
-      "c#",
-      "dotnet"
-    ]
+    "Tags": []
   },
   {
     "Name": "220526-Simple .NET Desktop app update server.md",
     "Description": "Update server in docker for a .NET client built with github actions",
-    "Tags": [
-      "c#",
-      "dotnet"
-    ]
+    "Tags": []
   }
 ]
