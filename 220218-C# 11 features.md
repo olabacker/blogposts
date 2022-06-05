@@ -1,4 +1,4 @@
-Bang bang (!!) operator 🤠 | [c#] [dotnet]
+Bang bang (!!) operator 🤠 | [c#]
 
 ## Bang bang operator !! 
 

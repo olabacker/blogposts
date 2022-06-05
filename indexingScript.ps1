@@ -11,11 +11,17 @@ foreach ($f in $files){
         $split = $firstLine.Split( "|")
         $description = $split[0]
 
-        $tags = [regex]::Matches($split[1], '(?<=\[)[^]]+(?=\])').Value
+        $regexmatches = [regex]::Matches($split[1], '(?<=\[)[^]]+(?=\])').Value
+        
+        $tags = @()
+        foreach($it in $regexmatches){
+            $tags += $it
+        }
     }
     else 
     {
         $description = $firstLine
+        $tags = @()
     }
 
 
