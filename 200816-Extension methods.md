@@ -1,4 +1,4 @@
-My most useful extension methods to have for any project 🖖
+My most useful extension methods to have for any project 🖖 | [dotnet]
 
 
 ## Random first

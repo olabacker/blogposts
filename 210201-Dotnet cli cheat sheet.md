@@ -1,5 +1,4 @@
-Some useful dotnet cli commands
-
+Some useful dotnet cli commands | [dotnet]
 
 ## New
 

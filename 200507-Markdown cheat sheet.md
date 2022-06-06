@@ -1,4 +1,4 @@
-Cheatsheet for writing markdown!
+Cheatsheet for writing markdown! | [markdown]
 
 ## Headers
 
@@ -18,6 +18,22 @@ Cheatsheet for writing markdown!
 ##### H5
 ###### H6
 
+
+## Tables
+
+```md
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ## Links
 

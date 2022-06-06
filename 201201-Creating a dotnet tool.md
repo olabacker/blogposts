@@ -1,4 +1,4 @@
-Steps to create a dotnet tool from a console application
+Steps to create a dotnet tool from a console application | [dotnet]
 
 # Introduction
 
