@@ -15,8 +15,10 @@
   },
   {
     "Name": "200507-Markdown cheat sheet.md",
-    "Description": "Cheatsheet for writing markdown!",
-    "Tags": []
+    "Description": "Cheatsheet for writing markdown! ",
+    "Tags": [
+      "markdown"
+    ]
   },
   {
     "Name": "200805-Mysql cmds.md",
@@ -27,8 +29,10 @@
   },
   {
     "Name": "200816-Extension methods.md",
-    "Description": "My most useful extension methods to have for any project 🖖",
-    "Tags": []
+    "Description": "My most useful extension methods to have for any project 🖖 ",
+    "Tags": [
+      "dotnet"
+    ]
   },
   {
     "Name": "201117-Docker commands.md",
@@ -37,8 +41,10 @@
   },
   {
     "Name": "201201-Creating a dotnet tool.md",
-    "Description": "Steps to create a dotnet tool from a console application",
-    "Tags": []
+    "Description": "Steps to create a dotnet tool from a console application ",
+    "Tags": [
+      "dotnet"
+    ]
   },
   {
     "Name": "210126-Chocolatey scripts.md",
@@ -47,8 +53,10 @@
   },
   {
     "Name": "210201-Dotnet cli cheat sheet.md",
-    "Description": "Some useful dotnet cli commands",
-    "Tags": []
+    "Description": "Some useful dotnet cli commands ",
+    "Tags": [
+      "dotnet"
+    ]
   },
   {
     "Name": "210312-Reflection.md",
@@ -72,8 +80,10 @@
   },
   {
     "Name": "210815-Minimal apis in ASP.NET.md",
-    "Description": "Examples of how to utilize the minimal api syntax",
-    "Tags": []
+    "Description": "Examples of how to utilize the minimal api syntax ",
+    "Tags": [
+      "aspnet"
+    ]
   },
   {
     "Name": "211025-C# 10 features.md",
@@ -108,7 +118,8 @@
     "Description": "Use github actions to deploy a blazor application to azure static web pages ",
     "Tags": [
       "azure",
-      "blazor"
+      "blazor",
+      "ghactions"
     ]
   },
   {
