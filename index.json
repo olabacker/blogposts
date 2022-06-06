@@ -8,8 +8,10 @@
   },
   {
     "Name": "200115-Useful PowerShell scripts and commands.md",
-    "Description": "small compilation of powershell commands",
-    "Tags": []
+    "Description": "Small compilation of powershell commands ",
+    "Tags": [
+      "pwsh"
+    ]
   },
   {
     "Name": "200507-Markdown cheat sheet.md",
@@ -18,8 +20,10 @@
   },
   {
     "Name": "200805-Mysql cmds.md",
-    "Description": "Run local sql file in powershell",
-    "Tags": []
+    "Description": "Run local sql file in powershell ",
+    "Tags": [
+      "pwsh"
+    ]
   },
   {
     "Name": "200816-Extension methods.md",
@@ -94,8 +98,10 @@
   },
   {
     "Name": "220117-Deploy static web page to azure.md",
-    "Description": "Process of setting up a static web app on azure with custom DNS and certificate",
-    "Tags": []
+    "Description": "Process of setting up a static web app on azure with custom DNS and certificate ",
+    "Tags": [
+      "azure"
+    ]
   },
   {
     "Name": "220214-Automate blazor deployment to azure with github actions.md",
@@ -114,8 +120,10 @@
   },
   {
     "Name": "220217-Semantic commit messages.md",
-    "Description": "Syntax for using semantic commit messages",
-    "Tags": []
+    "Description": "Syntax for using semantic commit messages ",
+    "Tags": [
+      "git"
+    ]
   },
   {
     "Name": "220218-C# 11 features.md",
