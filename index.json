@@ -80,8 +80,10 @@
   },
   {
     "Name": "211026-New .NET 6 apis.md",
-    "Description": "New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer",
-    "Tags": []
+    "Description": "New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer ",
+    "Tags": [
+      "dotnet"
+    ]
   },
   {
     "Name": "211108-Git gud.md",
@@ -132,6 +134,13 @@
     "Description": "Update server in docker for a .NET client built with github actions ",
     "Tags": [
       "ghactions"
+    ]
+  },
+  {
+    "Name": "220606-Local config class.md",
+    "Description": "Useful generic for quick saving/reading of configuration stored on local machine ",
+    "Tags": [
+      "dotnet"
     ]
   }
 ]
