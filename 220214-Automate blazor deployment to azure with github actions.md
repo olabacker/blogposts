@@ -1,4 +1,4 @@
-Use github actions to deploy a blazor application to azure static web pages | [azure] [blazor]
+Use github actions to deploy a blazor application to azure static web pages | [azure] [blazor] [ghactions]
 
 ## Retreive Azure Service Principal 
 

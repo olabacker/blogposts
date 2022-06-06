@@ -1,4 +1,4 @@
-Examples of how to utilize the minimal api syntax
+Examples of how to utilize the minimal api syntax | [aspnet]
 
 ## Simple GET response
 
