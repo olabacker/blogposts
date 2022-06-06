@@ -1,8 +1,10 @@
 [
   {
     "Name": "190905-C# 8 features.md",
-    "Description": "Switch expression, indices and ranges",
-    "Tags": []
+    "Description": "Switch expression, indices and ranges ",
+    "Tags": [
+      "c#"
+    ]
   },
   {
     "Name": "200115-Useful PowerShell scripts and commands.md",
@@ -71,8 +73,10 @@
   },
   {
     "Name": "211025-C# 10 features.md",
-    "Description": "Global usings, file scoped namespace and const interpolated strings",
-    "Tags": []
+    "Description": "Global usings, file scoped namespace and const interpolated strings ",
+    "Tags": [
+      "c#"
+    ]
   },
   {
     "Name": "211026-New .NET 6 apis.md",
@@ -93,13 +97,18 @@
   },
   {
     "Name": "220214-Automate blazor deployment to azure with github actions.md",
-    "Description": "Use github actions to deploy a blazor application to azure static web pages",
-    "Tags": []
+    "Description": "Use github actions to deploy a blazor application to azure static web pages ",
+    "Tags": [
+      "azure",
+      "blazor"
+    ]
   },
   {
     "Name": "220216-Network configuration in linux.md",
-    "Description": "Commands for setting ip address manually and opening ports 🐧",
-    "Tags": []
+    "Description": "Commands for setting ip address manually and opening ports 🐧 ",
+    "Tags": [
+      "linux"
+    ]
   },
   {
     "Name": "220217-Semantic commit messages.md",
@@ -120,7 +129,9 @@
   },
   {
     "Name": "220526-Simple .NET Desktop app update server.md",
-    "Description": "Update server in docker for a .NET client built with github actions",
-    "Tags": []
+    "Description": "Update server in docker for a .NET client built with github actions ",
+    "Tags": [
+      "ghactions"
+    ]
   }
 ]
