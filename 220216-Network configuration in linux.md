@@ -1,4 +1,4 @@
-Commands for setting ip address manually and opening ports 🐧
+Commands for setting ip address manually and opening ports 🐧 | [linux]
 
 # Setting manual ip address
 
