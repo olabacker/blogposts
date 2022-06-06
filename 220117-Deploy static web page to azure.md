@@ -1,4 +1,4 @@
-Process of setting up a static web app on azure with custom DNS and certificate
+Process of setting up a static web app on azure with custom DNS and certificate | [azure]
 
 <img style="" src="https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azurestaticwebapps/0.9.0/1636755230878/Microsoft.VisualStudio.Services.Icons.Default" alt="drawing" width="100"/>
 

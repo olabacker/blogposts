@@ -1,4 +1,4 @@
-small compilation of powershell commands
+Small compilation of powershell commands | [pwsh]
 
 ## Shutdown
 

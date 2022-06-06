@@ -1,4 +1,4 @@
-Syntax for using semantic commit messages
+Syntax for using semantic commit messages | [git]
 
 # Syntax
 
