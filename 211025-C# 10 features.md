@@ -1,4 +1,4 @@
-Global usings, file scoped namespace and const interpolated strings
+Global usings, file scoped namespace and const interpolated strings | [c#]
 
 ## Global usings
 

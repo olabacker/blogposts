@@ -1,4 +1,4 @@
-Switch expression, indices and ranges
+Switch expression, indices and ranges | [c#]
 
 ## Indices and ranges
 
