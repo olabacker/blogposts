@@ -36,8 +36,10 @@
   },
   {
     "Name": "201117-Docker commands.md",
-    "Description": "Compilation of useful docker commands 🐳",
-    "Tags": []
+    "Description": "Compilation of useful docker commands 🐳 ",
+    "Tags": [
+      "docker"
+    ]
   },
   {
     "Name": "201201-Creating a dotnet tool.md",
@@ -60,8 +62,10 @@
   },
   {
     "Name": "210312-Reflection.md",
-    "Description": "Useful reflection methods 🪞",
-    "Tags": []
+    "Description": "Useful 🪞 methods to be used with much care! ",
+    "Tags": [
+      "dotnet"
+    ]
   },
   {
     "Name": "210403-Customize Windows Terminal.md",
