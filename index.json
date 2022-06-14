@@ -165,5 +165,10 @@
     "Tags": [
       "dotnet"
     ]
+  },
+  {
+    "Name": "220614-Alternative to #if preprocessor directive.md",
+    "Description": "Check if the application is in debug mode with an alternate method",
+    "Tags": []
   }
 ]
