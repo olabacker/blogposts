@@ -25,7 +25,7 @@ var value = field.GetValue(privacyHolderInstance);
 
 ## Invoking a generic method
 
-Somehow you ended up with a non-typed object in runtime and the api only accept generics. Good news, just invoke the method with 🪞 instead!
+Somehow you ended up with a non-typed object in runtime and the api you need to call only accept generics. Good news, just invoke the method with 🪞 instead!
 
 ```cs
 var method =  typeof(CoolClass)
