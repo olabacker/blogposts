@@ -1,4 +1,4 @@
-Check if the application is in debug mode with an alternate method
+Check if the application is in debug mode with an alternate method | [dotnet]
 
 By writing the following
 
