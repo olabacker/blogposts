@@ -168,7 +168,9 @@
   },
   {
     "Name": "220614-Alternative to #if debug preprocessor directive.md",
-    "Description": "Check if the application is in debug mode with an alternate method",
-    "Tags": []
+    "Description": "Check if the application is in debug mode with an alternate method ",
+    "Tags": [
+      "dotnet"
+    ]
   }
 ]
