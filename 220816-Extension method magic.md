@@ -1,4 +1,4 @@
-The most useful extension methods to have for any project 🪄 | [dotnet] [c#]
+The most useful extension methods! 🪄 | [dotnet] [c#]
 
 
 ## Validate
@@ -17,7 +17,7 @@ public static T ApplyOps<T>(this T @this, params Func<T,T>[] f) =>
     f.Aggregate(@this, (acc, x) => x(acc));
 ```
 
-
+Aggregate is a useful LINQ-method which certainly has its niche. In this case it clarifies when chaining lambdas continuously against any object.
 
 
 ## Random first
@@ -85,3 +85,10 @@ public static bool IsItFriday(this DateTime dt)
     return dt.DayOfWeek == DayOfWeek.Friday;
 }
 ```
+
+
+## Conclusion
+
+Extension methods are very useful and allows for many improvements on the codebase.
+
+I recommend watching the [NDC seminar by Simon Painter](https://www.youtube.com/watch?v=0ial6pfgV9g) for interesting look into interesting uses for extension methods.
