@@ -28,13 +28,6 @@
     ]
   },
   {
-    "Name": "200816-Extension methods.md",
-    "Description": "My most useful extension methods to have for any project 🖖 ",
-    "Tags": [
-      "dotnet"
-    ]
-  },
-  {
     "Name": "201117-Docker commands.md",
     "Description": "Compilation of useful docker commands 🐳 ",
     "Tags": [
@@ -171,6 +164,21 @@
     "Description": "Check if the application is in debug mode with an alternate method ",
     "Tags": [
       "dotnet"
+    ]
+  },
+  {
+    "Name": "220806-Rider keyboard shortcuts.md",
+    "Description": "Useful ⌨️ shortcuts in Rider after switching from visual studio  ",
+    "Tags": [
+      "rider"
+    ]
+  },
+  {
+    "Name": "220816-Extension method magic.md",
+    "Description": "The most useful extension methods to have for any project 🪄 ",
+    "Tags": [
+      "dotnet",
+      "c#"
     ]
   }
 ]
