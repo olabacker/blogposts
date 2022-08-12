@@ -12,12 +12,12 @@ Instead of multiple if statements of bloating when checking for validity, just a
 
 ## ApplyOps
 
+Aggregate is a useful LINQ-method which certainly has its niche. In this case it clarifies when chaining lambdas continuously against any object.
+
 ```cs
 public static T ApplyOps<T>(this T @this, params Func<T,T>[] f) =>
     f.Aggregate(@this, (acc, x) => x(acc));
 ```
-
-Aggregate is a useful LINQ-method which certainly has its niche. In this case it clarifies when chaining lambdas continuously against any object.
 
 
 ## Random first
@@ -65,7 +65,6 @@ Get a random element from an enumeration
 
 Extension method for shuffling an enumerable.
 ```cs
-
 public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> list) 
 {
     var r = new Random((int)DateTime.Now.Ticks);
@@ -74,7 +73,6 @@ public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> list)
         .Select(x => x.Item);
     return shuffledList.ToList();
 }
-
 ```
 
 ## IsItFriday
