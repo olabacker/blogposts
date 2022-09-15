@@ -1,6 +1,8 @@
 The most useful extension methods! 🪄 | [dotnet] [c#]
 
 
+## Generic static methods
+
 ## Validate
 
 ```cs
@@ -19,6 +21,7 @@ public static T ApplyOps<T>(this T @this, params Func<T,T>[] f) =>
     f.Aggregate(@this, (acc, x) => x(acc));
 ```
 
+## IEnumerable
 
 ## Random first
 
@@ -75,6 +78,9 @@ public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> list)
 }
 ```
 
+
+# Datetime 
+
 ## IsItFriday
 
 ```cs
@@ -84,8 +90,23 @@ public static bool IsItFriday(this DateTime dt)
 }
 ```
 
+## Next()
 
-## Conclusion
+```cs
+public static DateTime Next(this DateTime @this, DayOfWeek dayOfWeek)
+{
+    int offsetDays = dayOfWeek - @this.DayOfWeek;
+    if (offsetDays <= 0)
+    {
+        offsetDays += 7;
+    }
+
+    return current.AddDays(offsetDays);
+}
+```
+
+
+# Conclusion
 
 Extension methods are very useful and allows for many improvements on the codebase.
 
