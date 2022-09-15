@@ -23,10 +23,12 @@ While starting up the processes alot of objects are loaded into memory, specific
  A simple solution for this is to use [the constructor](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.-ctor?view=net-6.0#system-collections-generic-list-1-ctor(system-int32))
  which sets the initial capacity. Now the elements added will not require the extra allocations happening when using the empty constructor. 
 
-<!-- ## Span<T>
+<!-- ## Span<T>-->
 
 
 ## Stack vs Heap allocation
+
+Whilst many developers know the difference of datatypes being stored on either the heap or stack depending on different 
 
 | Type        | Allocation           
 | -----------|:-------------|
@@ -34,12 +36,12 @@ While starting up the processes alot of objects are loaded into memory, specific
 | value type declared as variable in method | stack  |  
 | value type declared as parameter in method | stack |
 | value type declared as member of class | heap |
-| value type declared as member of struct | wherever parent is allocated|
-| ref struct | stack | -->
+| value type declared as member of struct | where the parent is allocated|
+| ref struct | stack | 
 
-<!-- ## Empty collections
+## Empty collections
 
-While encountering a property with a collection you might need to check it for null or try to rid of the problem by using the auto-property initializer to make sure the collection never is (at least less likely) null. What if the class which the auto-property initializer was set on has 1M+ objects allocated in memory? Then   -->
+
 
 ## Duplicate strings
 
