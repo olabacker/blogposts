@@ -1,7 +1,7 @@
 The most useful extension methods! 🪄 | [dotnet] [c#]
 
 
-## Generic static methods
+# Generic static methods
 
 ## Validate
 
