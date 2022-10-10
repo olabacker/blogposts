@@ -187,5 +187,12 @@
       "dotnet",
       "c#"
     ]
+  },
+  {
+    "Name": "221010-Memory leak fixing in .NET.md",
+    "Description": "Memory leak fixing ",
+    "Tags": [
+      "dotnet"
+    ]
   }
 ]
