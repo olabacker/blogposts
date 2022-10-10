@@ -1,4 +1,6 @@
-Memory leak fixing | [dotnet]
+Memory leak fixing 🌊 | [dotnet]
+
+![Sad times](images/ramgone.jpg "Ram gone")
 
 ## Premise
 
