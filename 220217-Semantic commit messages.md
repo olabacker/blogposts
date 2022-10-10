@@ -4,7 +4,7 @@ Syntax for using semantic commit messages | [git]
 
 The following structure should be used when using semantic commit messages.
 
-```
+```git
 type(scope): subject
 ```
 
