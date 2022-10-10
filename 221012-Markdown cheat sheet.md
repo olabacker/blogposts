@@ -1,6 +1,11 @@
 Cheatsheet for writing markdown! | [markdown]
 
-## Headers
+# Intro
+
+As many other blogs every article is written in markdown. Below are diffent usages and their result as rendered with the styling included
+
+# Headers
+
 
 ```md
 # H1
@@ -10,6 +15,7 @@ Cheatsheet for writing markdown! | [markdown]
 ##### H5
 ###### H6
 ```
+ ---
 
 # H1
 ## H2
@@ -19,7 +25,7 @@ Cheatsheet for writing markdown! | [markdown]
 ###### H6
 
 
-## Tables
+# Tables
 
 ```md
 | Tables        | Are           | Cool  |
@@ -28,6 +34,8 @@ Cheatsheet for writing markdown! | [markdown]
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 ```
+
+---
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -40,6 +48,9 @@ Cheatsheet for writing markdown! | [markdown]
 ```md
 [title](https://www.olabacker.net)
 ```
+
+---
+
 
 [Link](https://www.olabacker.net)
 
@@ -56,6 +67,8 @@ Combined emphasis with **asterisks and _underscores_**.
 Strikethrough uses two tildes. ~~Scratch this.~~
 ```
 
+---
+
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -65,7 +78,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-## Lists
+# Lists
 
 ```md
 1. First ordered list item
@@ -86,6 +99,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 + Or pluses
 ```
 
+---
+
 1. First ordered list item
 2. Another item
 ⋅⋅* Unordered sub-list. 
@@ -103,9 +118,29 @@ To have a line break without a paragraph, you will need to use two trailing spac
 - Or minuses
 + Or pluses
 
-## Images
+# Images
 
 ```md
-![alt text](images/coolimage.png "Awesome log")
+![alt text](images/candy.jpg "Awesome log")
 ```
+
+---
+
+![alt text](images/candy.jpg "Awesome log")
+
+
+
+# Quotes 
+
+```md
+> "Never trust a computer you can’t throw out a window.”
+
+> ⚠️ **Warning:** Do not push the big red button.
+```
+
+ ---
+
+> "Never trust a computer you can’t throw out a window.”
+
+> ⚠️ **Warning:** Do not push the big red button.
 
