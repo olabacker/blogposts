@@ -6,9 +6,9 @@ After using visual studio a couple of years I decided to try out Rider. My initi
 ## Master command to find available actions
 
 Lists available commands and its associated keyboard shortcut
-
+```sh
 `Ctrl` + `Shift` + `A`
-
+```
 This is making it way easier to remember the shortcuts since you can search for the command and view the shortcut in the menu.
 
 
@@ -17,16 +17,21 @@ This is making it way easier to remember the shortcuts since you can search for 
 
 ### Move to solution explorer
 
+```sh
 `Ctrl` + `Alt` + `L`
+```
 
 ### Move to open file in solution explorer
 
+```sh
 `Shift` + `Alt` + `L`
-
+```
 
 
 ## Debug
 
 ### Move up/down in error/warning list
 
+```sh
 `Ctrl` + `Alt` + `Up`/`Down`
+```
