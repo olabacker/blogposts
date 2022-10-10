@@ -39,7 +39,7 @@ Whilst many developers know the difference of datatypes being stored on either t
 | value type declared as member of struct | where the parent is allocated|
 | ref struct | stack | 
 
-## Empty collections
+<!-- ## Empty collections -->
 
 
 
