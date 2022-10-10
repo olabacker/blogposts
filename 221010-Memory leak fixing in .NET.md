@@ -31,9 +31,9 @@ While starting up the processes alot of objects are loaded into memory, specific
 ## Stack vs Heap allocation
 
 Whilst many developers know the difference of datatypes being stored on either the heap or stack depending on different 
-+------------+--------------+
+
 |Type        |Allocation    |
-| -----------|--------------|
+| -----------|--------------
 | reference types | heap
 | value type declared as variable in method | stack  |  
 | value type declared as parameter in method | stack |
