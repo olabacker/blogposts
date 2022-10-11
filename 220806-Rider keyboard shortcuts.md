@@ -35,3 +35,11 @@ This is making it way easier to remember the shortcuts since you can search for 
 ```sh
 `Ctrl` + `Alt` + `Up`/`Down`
 ```
+
+## Run
+
+### Run anything
+
+```sh
+'Ctrl' + 'Ctrl'
+```
