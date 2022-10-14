@@ -3,12 +3,12 @@ Small compilation of powershell commands | [pwsh]
 ## Shutdown
 
 Restart or shutdown the computer with the following command 
-```powershell
+```sh
 shutdown -r/-s -t 0
 ```
 
 Reboot directly into bios
-```powershell
+```sh
 shutdown -r -fw -f -t 0
 ```
 

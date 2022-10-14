@@ -13,7 +13,7 @@ dotnet new [template]
 
 Create a default gitignore file, ignoring common files/directories like obj/bin.
 
-```powershell
+```bash
 dotnet new gitignore
 ```
 
