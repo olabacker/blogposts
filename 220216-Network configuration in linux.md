@@ -4,7 +4,7 @@ Commands for setting ip address manually and opening ports 🐧 | [linux]
 
 Start by finding out which interface to target and replace further occurences of [eth] with your own.
 
-```ps
+```powershell
 nmcli
 ```
 

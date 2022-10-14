@@ -29,7 +29,7 @@ After creating the custom domain in the endpoint, select it and set custom domai
 
 If it is the first time the azure account is setup with a custom certificate, another step for setting Azure CDN permission in your Azure Active Directory which is required for allowing Azure CDN to access the key vault. Execute the following command in Azure powershell.
 
-```ps
+```powershell
 New-AzADServicePrincipal -ApplicationId "205478c0-bd83-4e1b-a9d6-db63a3e1e1c8
 ```
 
