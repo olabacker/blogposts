@@ -7,7 +7,23 @@ Restart or shutdown the computer with the following command
 shutdown -r/-s -t 0
 ```
 
+Reboot directly into bios
+```powershell
+shutdown -r -fw -f -t 0
+```
 
+
+## Copy output
+
+```
+[any command giving output] | clip 
+```
+
+## Search output
+
+```powershell
+[any command giving output] | searchstr [query] 
+```
 
 ## Updating powershell in powershell
 
