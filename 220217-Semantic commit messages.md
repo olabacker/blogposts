@@ -49,7 +49,7 @@ If the repo is using only semantic commits the structure forces developers to  m
 
 When all commits in a repo are using semantic commits there are some gained advantages similar to when using structured logging. This makes us able to filter certain commits by type for example.   
 
-```ps
+```powershell
 git log --oneline --grep "^feat" 
 ```
 

@@ -1,5 +1,5 @@
 Run local sql file in powershell | [pwsh]
 
-```ps
+```powershell
 mysql -uroot -proot -e "source [filePath].sql" [dbname]
 ```

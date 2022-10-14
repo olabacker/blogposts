@@ -4,7 +4,7 @@ Use github actions to deploy a blazor application to azure static web pages | [a
 
 Run the following command in az pwsh after replacing {subscription-id}, {resource-group} with the subscription, resource group details
 
-```ps
+```powershell
 az ad sp create-for-rbac --name "myApp" --role contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{resource-group} --sdk-auth
 ```
 
