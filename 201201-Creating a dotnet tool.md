@@ -6,7 +6,7 @@ A dotnet tool is a cli application built in .NET which is distibuted through a n
 
 A dotnet tool is installed using the 'dotnet tool install' command.
 
-```powershell
+```sh
 dotnet tool install -g cooltool
 ```
 
@@ -22,13 +22,13 @@ Add the following to the .csproj file of a console application. This allows the 
 
 # Build
 
-```powershell
+```sh
 dotnet pack -p:PackageVersion=$version /p:Version=$version
 ```
 
 # Push to source
 
-```powershell
+```sh
 dotnet nuget push -s [customnugetsource/index.json] [nugetfile.nupkg]
 ```
 

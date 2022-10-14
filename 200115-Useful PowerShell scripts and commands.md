@@ -21,7 +21,7 @@ shutdown -r -fw -f -t 0
 
 ## Search output
 
-```powershell
+```sh
 [any command giving output] | searchstr [query] 
 ```
 
@@ -29,7 +29,7 @@ shutdown -r -fw -f -t 0
 
 This is probably easiest to do with winget!
 
-```powershell
+```sh
 winget install --id Microsoft.PowerShell --exact
 ```
 
@@ -68,7 +68,7 @@ if ($status -Match 'Disabled') {
 
 Alias for Get-Content
 
-```powershell
+```sh
 cat [FileName]
 ```
 
@@ -76,7 +76,7 @@ cat [FileName]
 
 Alias for Get-ChildItem
 
-```powershell
+```sh
 ls -Filter [SearchPattern]
 ```
 
@@ -84,7 +84,7 @@ ls -Filter [SearchPattern]
 
 Alias for New-Item
 
-```powershell
+```sh
 ni [FileName]
 ```
 
