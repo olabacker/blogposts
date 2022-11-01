@@ -8,7 +8,6 @@ The following structure should be used when using semantic commit messages.
 type(scope): subject
 ```
 
-
 # Types
 
 ## ✨ feat
