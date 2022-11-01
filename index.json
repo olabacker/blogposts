@@ -202,5 +202,13 @@
       "dotnet",
       "c#"
     ]
+  },
+  {
+    "Name": "221021-Tailwind in blazor.md",
+    "Description": "Guide to initialize and use the css framework Tailwind in Blazor ",
+    "Tags": [
+      "tailwind",
+      "blazor"
+    ]
   }
 ]

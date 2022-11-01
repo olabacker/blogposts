@@ -6,7 +6,7 @@ Delicious chocolatey scripts 🍫
 
 Basic chocolatey script to install some applications quickly when refreshing a windows installation.
 
-```ps
+```powershell
 choco feature enable -n allowGlobalConfirmation
 
 choco install spotify 
