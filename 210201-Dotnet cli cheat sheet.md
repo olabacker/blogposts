@@ -4,7 +4,7 @@ Some useful dotnet cli commands | [dotnet]
 
 Create a new project given a template
 
-```ps
+```powershell
 dotnet new [template]
 ```
 
@@ -13,7 +13,7 @@ dotnet new [template]
 
 Create a default gitignore file, ignoring common files/directories like obj/bin.
 
-```ps
+```bash
 dotnet new gitignore
 ```
 

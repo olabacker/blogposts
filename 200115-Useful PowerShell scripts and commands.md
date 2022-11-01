@@ -3,12 +3,12 @@ Small compilation of powershell commands | [pwsh]
 ## Shutdown
 
 Restart or shutdown the computer with the following command 
-```ps
+```sh
 shutdown -r/-s -t 0
 ```
 
 Reboot directly into bios
-```powershell
+```sh
 shutdown -r -fw -f -t 0
 ```
 
@@ -21,7 +21,7 @@ shutdown -r -fw -f -t 0
 
 ## Search output
 
-```powershell
+```sh
 [any command giving output] | searchstr [query] 
 ```
 
@@ -29,7 +29,7 @@ shutdown -r -fw -f -t 0
 
 This is probably easiest to do with winget!
 
-```ps
+```sh
 winget install --id Microsoft.PowerShell --exact
 ```
 
@@ -38,7 +38,7 @@ winget install --id Microsoft.PowerShell --exact
 
 Requires ps in administrator ⚡
 
-```ps
+```powershell
 Restart-Service [servicename]
 ```
 
@@ -47,7 +47,7 @@ Restart-Service [servicename]
 
 This script toggles the state of a specific ethernet adapter. Useful when regularly switching between network adapters for a vpn as an example.
 
-```ps
+```powershell
 $adapterName = 'Ethernet'
 
 $status = Get-NetAdapter -Name $adapterName | Format-List -Property "Status" | Out-String
@@ -68,7 +68,7 @@ if ($status -Match 'Disabled') {
 
 Alias for Get-Content
 
-```ps
+```sh
 cat [FileName]
 ```
 
@@ -76,7 +76,7 @@ cat [FileName]
 
 Alias for Get-ChildItem
 
-```ps
+```sh
 ls -Filter [SearchPattern]
 ```
 
@@ -84,7 +84,7 @@ ls -Filter [SearchPattern]
 
 Alias for New-Item
 
-```ps
+```sh
 ni [FileName]
 ```
 

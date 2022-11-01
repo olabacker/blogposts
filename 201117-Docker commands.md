@@ -4,7 +4,7 @@ Compilation of useful docker commands 🐳 | [docker]
 
 Basic command for building an image from a Dockerfile
 
-```ps
+```powershell
 docker build -t [tag] -f [dockerfile path] [build root]
 ```
 
@@ -22,7 +22,7 @@ Required ports for a docker swarm node to function properly
 
 If docker is taking too much space a system prune might be a good idea.
 
-```ps
+```sh
 docker system prune -a
 ```
 
@@ -37,7 +37,7 @@ This cleans
 
 Command for entering a shell inside the container
 
-```ps
+```sh
 docker exec -it [CONTAINER] sh
 ```
 
@@ -57,7 +57,7 @@ To make a port only available on the host(s) a service is running on, it should 
 
 If your private docker registry is full and contains layers marked for deletion, run this command with the config file present.
 
-```ps
+```sh
 registry garbage-collect config.yml
 ```
 
