@@ -32,7 +32,7 @@ foreach ($f in $files){
 
     $blogPost = [PSCustomObject]@{
         Id = $name
-        Name = $name
+        Title = $name
         FilePathName = $f.Name
         Description = $description
         Tags = $tags
