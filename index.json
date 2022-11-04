@@ -1,7 +1,7 @@
 [
   {
     "Id": "C# 8 features",
-    "Name": "C# 8 features",
+    "Title": "C# 8 features",
     "FilePathName": "190905-C# 8 features.md",
     "Description": "Switch expression, indices and ranges ",
     "Tags": [
@@ -11,7 +11,7 @@
   },
   {
     "Id": "Useful PowerShell scripts and commands",
-    "Name": "Useful PowerShell scripts and commands",
+    "Title": "Useful PowerShell scripts and commands",
     "FilePathName": "200115-Useful PowerShell scripts and commands.md",
     "Description": "Small compilation of powershell commands ",
     "Tags": [
@@ -21,7 +21,7 @@
   },
   {
     "Id": "Mysql cmds",
-    "Name": "Mysql cmds",
+    "Title": "Mysql cmds",
     "FilePathName": "200805-Mysql cmds.md",
     "Description": "Run local sql file in powershell ",
     "Tags": [
@@ -31,7 +31,7 @@
   },
   {
     "Id": "Docker commands",
-    "Name": "Docker commands",
+    "Title": "Docker commands",
     "FilePathName": "201117-Docker commands.md",
     "Description": "Compilation of useful docker commands 🐳 ",
     "Tags": [
@@ -41,7 +41,7 @@
   },
   {
     "Id": "Creating a dotnet tool",
-    "Name": "Creating a dotnet tool",
+    "Title": "Creating a dotnet tool",
     "FilePathName": "201201-Creating a dotnet tool.md",
     "Description": "Steps to create a dotnet tool from a console application ",
     "Tags": [
@@ -51,7 +51,7 @@
   },
   {
     "Id": "Chocolatey scripts",
-    "Name": "Chocolatey scripts",
+    "Title": "Chocolatey scripts",
     "FilePathName": "210126-Chocolatey scripts.md",
     "Description": "Delicious chocolatey scripts 🍫",
     "Tags": [],
@@ -59,7 +59,7 @@
   },
   {
     "Id": "Dotnet cli cheat sheet",
-    "Name": "Dotnet cli cheat sheet",
+    "Title": "Dotnet cli cheat sheet",
     "FilePathName": "210201-Dotnet cli cheat sheet.md",
     "Description": "Some useful dotnet cli commands ",
     "Tags": [
@@ -69,7 +69,7 @@
   },
   {
     "Id": "Reflection",
-    "Name": "Reflection",
+    "Title": "Reflection",
     "FilePathName": "210312-Reflection.md",
     "Description": "Useful 🪞 methods to be used with much care! ",
     "Tags": [
@@ -79,7 +79,7 @@
   },
   {
     "Id": "Customize Windows Terminal",
-    "Name": "Customize Windows Terminal",
+    "Title": "Customize Windows Terminal",
     "FilePathName": "210403-Customize Windows Terminal.md",
     "Description": "Guide to making windows terminal more useful and cooler looking 😎",
     "Tags": [],
@@ -87,7 +87,7 @@
   },
   {
     "Id": "MariaDb docker compose",
-    "Name": "MariaDb docker compose",
+    "Title": "MariaDb docker compose",
     "FilePathName": "210528-MariaDb docker compose.md",
     "Description": "Simple compose file for maria db.",
     "Tags": [],
@@ -95,7 +95,7 @@
   },
   {
     "Id": "Certbot openssl manual renewal",
-    "Name": "Certbot openssl manual renewal",
+    "Title": "Certbot openssl manual renewal",
     "FilePathName": "210706-Certbot openssl manual renewal.md",
     "Description": "Create a pfx file wih openssl by using manual dns challenge 🔑",
     "Tags": [],
@@ -103,7 +103,7 @@
   },
   {
     "Id": "Minimal apis in ASP.NET",
-    "Name": "Minimal apis in ASP.NET",
+    "Title": "Minimal apis in ASP.NET",
     "FilePathName": "210815-Minimal apis in ASP.NET.md",
     "Description": "Examples of how to utilize the minimal api syntax ",
     "Tags": [
@@ -113,7 +113,7 @@
   },
   {
     "Id": "C# 10 features",
-    "Name": "C# 10 features",
+    "Title": "C# 10 features",
     "FilePathName": "211025-C# 10 features.md",
     "Description": "Global usings, file scoped namespace and const interpolated strings ",
     "Tags": [
@@ -123,7 +123,7 @@
   },
   {
     "Id": "New .NET 6 apis",
-    "Name": "New .NET 6 apis",
+    "Title": "New .NET 6 apis",
     "FilePathName": "211026-New .NET 6 apis.md",
     "Description": "New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer ",
     "Tags": [
@@ -133,7 +133,7 @@
   },
   {
     "Id": "Git gud",
-    "Name": "Git gud",
+    "Title": "Git gud",
     "FilePathName": "211108-Git gud.md",
     "Description": "Mastery of git commands 🧙‍♂️ ",
     "Tags": [
@@ -143,7 +143,7 @@
   },
   {
     "Id": "Deploy static web page to azure",
-    "Name": "Deploy static web page to azure",
+    "Title": "Deploy static web page to azure",
     "FilePathName": "220117-Deploy static web page to azure.md",
     "Description": "Process of setting up a static web app on azure with custom DNS and certificate ",
     "Tags": [
@@ -153,7 +153,7 @@
   },
   {
     "Id": "Automate blazor deployment to azure with github actions",
-    "Name": "Automate blazor deployment to azure with github actions",
+    "Title": "Automate blazor deployment to azure with github actions",
     "FilePathName": "220214-Automate blazor deployment to azure with github actions.md",
     "Description": "Use github actions to deploy a blazor application to azure static web pages ",
     "Tags": [
@@ -165,7 +165,7 @@
   },
   {
     "Id": "Network configuration in linux",
-    "Name": "Network configuration in linux",
+    "Title": "Network configuration in linux",
     "FilePathName": "220216-Network configuration in linux.md",
     "Description": "Commands for setting ip address manually and opening ports 🐧 ",
     "Tags": [
@@ -175,7 +175,7 @@
   },
   {
     "Id": "Semantic commit messages",
-    "Name": "Semantic commit messages",
+    "Title": "Semantic commit messages",
     "FilePathName": "220217-Semantic commit messages.md",
     "Description": "Syntax for using semantic commit messages ",
     "Tags": [
@@ -185,7 +185,7 @@
   },
   {
     "Id": "C# 11 features",
-    "Name": "C# 11 features",
+    "Title": "C# 11 features",
     "FilePathName": "220218-C# 11 features.md",
     "Description": "Bang bang (!!) operator 🤠 ",
     "Tags": [
@@ -195,7 +195,7 @@
   },
   {
     "Id": "Mouseless browsing with Vimium",
-    "Name": "Mouseless browsing with Vimium",
+    "Title": "Mouseless browsing with Vimium",
     "FilePathName": "220223-Mouseless browsing with Vimium.md",
     "Description": "Extension for browsing the web with keyboard only ⌨️",
     "Tags": [],
@@ -203,7 +203,7 @@
   },
   {
     "Id": "Simple .NET Desktop app update server",
-    "Name": "Simple .NET Desktop app update server",
+    "Title": "Simple .NET Desktop app update server",
     "FilePathName": "220526-Simple .NET Desktop app update server.md",
     "Description": "Update server in docker for a .NET client built with github actions ",
     "Tags": [
@@ -213,7 +213,7 @@
   },
   {
     "Id": "Local config class",
-    "Name": "Local config class",
+    "Title": "Local config class",
     "FilePathName": "220606-Local config class.md",
     "Description": "Useful generic for quick saving/reading of configuration stored on local machine ",
     "Tags": [
@@ -223,7 +223,7 @@
   },
   {
     "Id": "Alternative to #if debug preprocessor directive",
-    "Name": "Alternative to #if debug preprocessor directive",
+    "Title": "Alternative to #if debug preprocessor directive",
     "FilePathName": "220614-Alternative to #if debug preprocessor directive.md",
     "Description": "Check if the application is in debug mode with an alternate method ",
     "Tags": [
@@ -233,7 +233,7 @@
   },
   {
     "Id": "Rider keyboard shortcuts",
-    "Name": "Rider keyboard shortcuts",
+    "Title": "Rider keyboard shortcuts",
     "FilePathName": "220806-Rider keyboard shortcuts.md",
     "Description": "Useful ⌨️ shortcuts in Rider after switching from visual studio  ",
     "Tags": [
@@ -243,7 +243,7 @@
   },
   {
     "Id": "Linux process managing",
-    "Name": "Linux process managing",
+    "Title": "Linux process managing",
     "FilePathName": "220812-Linux process managing.md",
     "Description": "Commands for basic process managing in linux ",
     "Tags": [
@@ -253,7 +253,7 @@
   },
   {
     "Id": "Extension method magic",
-    "Name": "Extension method magic",
+    "Title": "Extension method magic",
     "FilePathName": "220816-Extension method magic.md",
     "Description": "The most useful extension methods! 🪄 ",
     "Tags": [
@@ -264,7 +264,7 @@
   },
   {
     "Id": "Memory leak fixing in .NET",
-    "Name": "Memory leak fixing in .NET",
+    "Title": "Memory leak fixing in .NET",
     "FilePathName": "221010-Memory leak fixing in .NET.md",
     "Description": "Memory leak fixing 🌊 ",
     "Tags": [
@@ -274,7 +274,7 @@
   },
   {
     "Id": "Markdown cheat sheet",
-    "Name": "Markdown cheat sheet",
+    "Title": "Markdown cheat sheet",
     "FilePathName": "221012-Markdown cheat sheet.md",
     "Description": "Cheatsheet for writing markdown! ",
     "Tags": [
@@ -284,7 +284,7 @@
   },
   {
     "Id": "Fun with async await",
-    "Name": "Fun with async await",
+    "Title": "Fun with async await",
     "FilePathName": "221020-Fun with async await.md",
     "Description": "Collected notes about some async/await practices ",
     "Tags": [
@@ -295,7 +295,7 @@
   },
   {
     "Id": "Tailwind in blazor",
-    "Name": "Tailwind in blazor",
+    "Title": "Tailwind in blazor",
     "FilePathName": "221021-Tailwind in blazor.md",
     "Description": "Guide to initialize and use the css framework Tailwind in Blazor ",
     "Tags": [
