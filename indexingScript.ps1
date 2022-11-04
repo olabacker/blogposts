@@ -24,11 +24,19 @@ foreach ($f in $files){
         $tags = @()
     }
 
+    $nameWithExtension = $f.Name.Substring(7)
+
+    $name = $nameWithExtension.Substring(0, $nameWithExtension.Length - 3)
+
+    $date = [datetime]::parseexact($f.Name.Substring(0, 6), 'yyMMdd', $null)
 
     $blogPost = [PSCustomObject]@{
-        Name = $f.Name
+        Id = $name
+        Name = $name
+        FilePathName = $f.Name
         Description = $description
         Tags = $tags
+        DateTime = $date
     }
 
     $collectionVariable.Add($blogPost) | Out-Null

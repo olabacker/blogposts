@@ -1,214 +1,307 @@
 [
   {
-    "Name": "190905-C# 8 features.md",
+    "Id": "C# 8 features",
+    "Name": "C# 8 features",
+    "FilePathName": "190905-C# 8 features.md",
     "Description": "Switch expression, indices and ranges ",
     "Tags": [
       "c#"
-    ]
+    ],
+    "DateTime": "2019-09-05T00:00:00"
   },
   {
-    "Name": "200115-Useful PowerShell scripts and commands.md",
+    "Id": "Useful PowerShell scripts and commands",
+    "Name": "Useful PowerShell scripts and commands",
+    "FilePathName": "200115-Useful PowerShell scripts and commands.md",
     "Description": "Small compilation of powershell commands ",
     "Tags": [
       "pwsh"
-    ]
+    ],
+    "DateTime": "2020-01-15T00:00:00"
   },
   {
-    "Name": "200805-Mysql cmds.md",
+    "Id": "Mysql cmds",
+    "Name": "Mysql cmds",
+    "FilePathName": "200805-Mysql cmds.md",
     "Description": "Run local sql file in powershell ",
     "Tags": [
       "pwsh"
-    ]
+    ],
+    "DateTime": "2020-08-05T00:00:00"
   },
   {
-    "Name": "201117-Docker commands.md",
+    "Id": "Docker commands",
+    "Name": "Docker commands",
+    "FilePathName": "201117-Docker commands.md",
     "Description": "Compilation of useful docker commands 🐳 ",
     "Tags": [
       "docker"
-    ]
+    ],
+    "DateTime": "2020-11-17T00:00:00"
   },
   {
-    "Name": "201201-Creating a dotnet tool.md",
+    "Id": "Creating a dotnet tool",
+    "Name": "Creating a dotnet tool",
+    "FilePathName": "201201-Creating a dotnet tool.md",
     "Description": "Steps to create a dotnet tool from a console application ",
     "Tags": [
       "dotnet"
-    ]
+    ],
+    "DateTime": "2020-12-01T00:00:00"
   },
   {
-    "Name": "210126-Chocolatey scripts.md",
+    "Id": "Chocolatey scripts",
+    "Name": "Chocolatey scripts",
+    "FilePathName": "210126-Chocolatey scripts.md",
     "Description": "Delicious chocolatey scripts 🍫",
-    "Tags": []
+    "Tags": [],
+    "DateTime": "2021-01-26T00:00:00"
   },
   {
-    "Name": "210201-Dotnet cli cheat sheet.md",
+    "Id": "Dotnet cli cheat sheet",
+    "Name": "Dotnet cli cheat sheet",
+    "FilePathName": "210201-Dotnet cli cheat sheet.md",
     "Description": "Some useful dotnet cli commands ",
     "Tags": [
       "dotnet"
-    ]
+    ],
+    "DateTime": "2021-02-01T00:00:00"
   },
   {
-    "Name": "210312-Reflection.md",
+    "Id": "Reflection",
+    "Name": "Reflection",
+    "FilePathName": "210312-Reflection.md",
     "Description": "Useful 🪞 methods to be used with much care! ",
     "Tags": [
       "dotnet"
-    ]
+    ],
+    "DateTime": "2021-03-12T00:00:00"
   },
   {
-    "Name": "210403-Customize Windows Terminal.md",
+    "Id": "Customize Windows Terminal",
+    "Name": "Customize Windows Terminal",
+    "FilePathName": "210403-Customize Windows Terminal.md",
     "Description": "Guide to making windows terminal more useful and cooler looking 😎",
-    "Tags": []
+    "Tags": [],
+    "DateTime": "2021-04-03T00:00:00"
   },
   {
-    "Name": "210528-MariaDb docker compose.md",
+    "Id": "MariaDb docker compose",
+    "Name": "MariaDb docker compose",
+    "FilePathName": "210528-MariaDb docker compose.md",
     "Description": "Simple compose file for maria db.",
-    "Tags": []
+    "Tags": [],
+    "DateTime": "2021-05-28T00:00:00"
   },
   {
-    "Name": "210706-Certbot openssl manual renewal.md",
+    "Id": "Certbot openssl manual renewal",
+    "Name": "Certbot openssl manual renewal",
+    "FilePathName": "210706-Certbot openssl manual renewal.md",
     "Description": "Create a pfx file wih openssl by using manual dns challenge 🔑",
-    "Tags": []
+    "Tags": [],
+    "DateTime": "2021-07-06T00:00:00"
   },
   {
-    "Name": "210815-Minimal apis in ASP.NET.md",
+    "Id": "Minimal apis in ASP.NET",
+    "Name": "Minimal apis in ASP.NET",
+    "FilePathName": "210815-Minimal apis in ASP.NET.md",
     "Description": "Examples of how to utilize the minimal api syntax ",
     "Tags": [
       "aspnet"
-    ]
+    ],
+    "DateTime": "2021-08-15T00:00:00"
   },
   {
-    "Name": "211025-C# 10 features.md",
+    "Id": "C# 10 features",
+    "Name": "C# 10 features",
+    "FilePathName": "211025-C# 10 features.md",
     "Description": "Global usings, file scoped namespace and const interpolated strings ",
     "Tags": [
       "c#"
-    ]
+    ],
+    "DateTime": "2021-10-25T00:00:00"
   },
   {
-    "Name": "211026-New .NET 6 apis.md",
+    "Id": "New .NET 6 apis",
+    "Name": "New .NET 6 apis",
+    "FilePathName": "211026-New .NET 6 apis.md",
     "Description": "New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer ",
     "Tags": [
       "dotnet"
-    ]
+    ],
+    "DateTime": "2021-10-26T00:00:00"
   },
   {
-    "Name": "211108-Git gud.md",
+    "Id": "Git gud",
+    "Name": "Git gud",
+    "FilePathName": "211108-Git gud.md",
     "Description": "Mastery of git commands 🧙‍♂️ ",
     "Tags": [
       "git"
-    ]
+    ],
+    "DateTime": "2021-11-08T00:00:00"
   },
   {
-    "Name": "220117-Deploy static web page to azure.md",
+    "Id": "Deploy static web page to azure",
+    "Name": "Deploy static web page to azure",
+    "FilePathName": "220117-Deploy static web page to azure.md",
     "Description": "Process of setting up a static web app on azure with custom DNS and certificate ",
     "Tags": [
       "azure"
-    ]
+    ],
+    "DateTime": "2022-01-17T00:00:00"
   },
   {
-    "Name": "220214-Automate blazor deployment to azure with github actions.md",
+    "Id": "Automate blazor deployment to azure with github actions",
+    "Name": "Automate blazor deployment to azure with github actions",
+    "FilePathName": "220214-Automate blazor deployment to azure with github actions.md",
     "Description": "Use github actions to deploy a blazor application to azure static web pages ",
     "Tags": [
       "azure",
       "blazor",
       "ghactions"
-    ]
+    ],
+    "DateTime": "2022-02-14T00:00:00"
   },
   {
-    "Name": "220216-Network configuration in linux.md",
+    "Id": "Network configuration in linux",
+    "Name": "Network configuration in linux",
+    "FilePathName": "220216-Network configuration in linux.md",
     "Description": "Commands for setting ip address manually and opening ports 🐧 ",
     "Tags": [
       "linux"
-    ]
+    ],
+    "DateTime": "2022-02-16T00:00:00"
   },
   {
-    "Name": "220217-Semantic commit messages.md",
+    "Id": "Semantic commit messages",
+    "Name": "Semantic commit messages",
+    "FilePathName": "220217-Semantic commit messages.md",
     "Description": "Syntax for using semantic commit messages ",
     "Tags": [
       "git"
-    ]
+    ],
+    "DateTime": "2022-02-17T00:00:00"
   },
   {
-    "Name": "220218-C# 11 features.md",
+    "Id": "C# 11 features",
+    "Name": "C# 11 features",
+    "FilePathName": "220218-C# 11 features.md",
     "Description": "Bang bang (!!) operator 🤠 ",
     "Tags": [
       "c#"
-    ]
+    ],
+    "DateTime": "2022-02-18T00:00:00"
   },
   {
-    "Name": "220223-Mouseless browsing with Vimium.md",
+    "Id": "Mouseless browsing with Vimium",
+    "Name": "Mouseless browsing with Vimium",
+    "FilePathName": "220223-Mouseless browsing with Vimium.md",
     "Description": "Extension for browsing the web with keyboard only ⌨️",
-    "Tags": []
+    "Tags": [],
+    "DateTime": "2022-02-23T00:00:00"
   },
   {
-    "Name": "220526-Simple .NET Desktop app update server.md",
+    "Id": "Simple .NET Desktop app update server",
+    "Name": "Simple .NET Desktop app update server",
+    "FilePathName": "220526-Simple .NET Desktop app update server.md",
     "Description": "Update server in docker for a .NET client built with github actions ",
     "Tags": [
       "ghactions"
-    ]
+    ],
+    "DateTime": "2022-05-26T00:00:00"
   },
   {
-    "Name": "220606-Local config class.md",
+    "Id": "Local config class",
+    "Name": "Local config class",
+    "FilePathName": "220606-Local config class.md",
     "Description": "Useful generic for quick saving/reading of configuration stored on local machine ",
     "Tags": [
       "dotnet"
-    ]
+    ],
+    "DateTime": "2022-06-06T00:00:00"
   },
   {
-    "Name": "220614-Alternative to #if debug preprocessor directive.md",
+    "Id": "Alternative to #if debug preprocessor directive",
+    "Name": "Alternative to #if debug preprocessor directive",
+    "FilePathName": "220614-Alternative to #if debug preprocessor directive.md",
     "Description": "Check if the application is in debug mode with an alternate method ",
     "Tags": [
       "dotnet"
-    ]
+    ],
+    "DateTime": "2022-06-14T00:00:00"
   },
   {
-    "Name": "220806-Rider keyboard shortcuts.md",
+    "Id": "Rider keyboard shortcuts",
+    "Name": "Rider keyboard shortcuts",
+    "FilePathName": "220806-Rider keyboard shortcuts.md",
     "Description": "Useful ⌨️ shortcuts in Rider after switching from visual studio  ",
     "Tags": [
       "rider"
-    ]
+    ],
+    "DateTime": "2022-08-06T00:00:00"
   },
   {
-    "Name": "220812-Linux process managing.md",
+    "Id": "Linux process managing",
+    "Name": "Linux process managing",
+    "FilePathName": "220812-Linux process managing.md",
     "Description": "Commands for basic process managing in linux ",
     "Tags": [
       "linux"
-    ]
+    ],
+    "DateTime": "2022-08-12T00:00:00"
   },
   {
-    "Name": "220816-Extension method magic.md",
+    "Id": "Extension method magic",
+    "Name": "Extension method magic",
+    "FilePathName": "220816-Extension method magic.md",
     "Description": "The most useful extension methods! 🪄 ",
     "Tags": [
       "dotnet",
       "c#"
-    ]
+    ],
+    "DateTime": "2022-08-16T00:00:00"
   },
   {
-    "Name": "221010-Memory leak fixing in .NET.md",
+    "Id": "Memory leak fixing in .NET",
+    "Name": "Memory leak fixing in .NET",
+    "FilePathName": "221010-Memory leak fixing in .NET.md",
     "Description": "Memory leak fixing 🌊 ",
     "Tags": [
       "dotnet"
-    ]
+    ],
+    "DateTime": "2022-10-10T00:00:00"
   },
   {
-    "Name": "221012-Markdown cheat sheet.md",
+    "Id": "Markdown cheat sheet",
+    "Name": "Markdown cheat sheet",
+    "FilePathName": "221012-Markdown cheat sheet.md",
     "Description": "Cheatsheet for writing markdown! ",
     "Tags": [
       "markdown"
-    ]
+    ],
+    "DateTime": "2022-10-12T00:00:00"
   },
   {
-    "Name": "221020-Fun with async await.md",
+    "Id": "Fun with async await",
+    "Name": "Fun with async await",
+    "FilePathName": "221020-Fun with async await.md",
     "Description": "Collected notes about some async/await practices ",
     "Tags": [
       "dotnet",
       "c#"
-    ]
+    ],
+    "DateTime": "2022-10-20T00:00:00"
   },
   {
-    "Name": "221021-Tailwind in blazor.md",
+    "Id": "Tailwind in blazor",
+    "Name": "Tailwind in blazor",
+    "FilePathName": "221021-Tailwind in blazor.md",
     "Description": "Guide to initialize and use the css framework Tailwind in Blazor ",
     "Tags": [
       "tailwind",
       "blazor"
-    ]
+    ],
+    "DateTime": "2022-10-21T00:00:00"
   }
 ]
