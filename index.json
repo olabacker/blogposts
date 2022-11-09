@@ -303,5 +303,13 @@
       "blazor"
     ],
     "DateTime": "2022-10-21T00:00:00"
+  },
+  {
+    "Id": "Fun development jargon",
+    "Title": "Fun development jargon",
+    "FilePathName": "221109-Fun development jargon.md",
+    "Description": "Collection of cool jargon appropriate for usage daily in software development ",
+    "Tags": [],
+    "DateTime": "2022-11-09T00:00:00"
   }
 ]
