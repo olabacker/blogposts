@@ -1,3 +1,8 @@
+Collection of cool jargon appropriate for usage daily in software development 
+
+## 🍝 Spaghetti code
+
+The result of unstructured, hard coded cross dependencies and impossible to maintain code bases.
 
 ## 🏥 Shotgun surgery
 
