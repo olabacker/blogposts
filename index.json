@@ -311,5 +311,15 @@
     "Description": "Collection of cool jargon appropriate for usage daily in software development ",
     "Tags": [],
     "DateTime": "2022-11-09T00:00:00"
+  },
+  {
+    "Id": "Package project references in nuget",
+    "Title": "Package project references in nuget",
+    "FilePathName": "221221-Package project references in nuget.md",
+    "Description": "Include references projects in nuget packages ",
+    "Tags": [
+      "nuget"
+    ],
+    "DateTime": "2022-12-21T00:00:00"
   }
 ]
