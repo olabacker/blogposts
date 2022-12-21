@@ -1,4 +1,4 @@
-Include references projects in nuget packages
+Include references projects in nuget packages | [nuget]
 
 ## Problem
 
