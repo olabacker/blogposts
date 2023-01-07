@@ -313,6 +313,17 @@
     "DateTime": "2022-11-09T00:00:00"
   },
   {
+    "Id": "Docker .NET7 integrated",
+    "Title": "Docker .NET7 integrated",
+    "FilePathName": "221206-Docker .NET7 integrated.md",
+    "Description": "Build docker images in .NET without a dockerfile ",
+    "Tags": [
+      "docker",
+      "net"
+    ],
+    "DateTime": "2022-12-06T00:00:00"
+  },
+  {
     "Id": "Package project references in nuget",
     "Title": "Package project references in nuget",
     "FilePathName": "221221-Package project references in nuget.md",
