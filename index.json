@@ -23,9 +23,9 @@
     "Id": "Mysql cmds",
     "Title": "Mysql cmds",
     "FilePathName": "200805-Mysql cmds.md",
-    "Description": "Run local sql file in powershell ",
+    "Description": "Useful mysql commands ",
     "Tags": [
-      "pwsh"
+      "mysql"
     ],
     "DateTime": "2020-08-05T00:00:00"
   },
