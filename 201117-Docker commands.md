@@ -95,3 +95,5 @@ service_name:
   extra_hosts:
     - host.docker.internal:host-gateway
 ```
+
+The containers in this service can then communicate with its host by calling `host.docker.internal` from within the container.

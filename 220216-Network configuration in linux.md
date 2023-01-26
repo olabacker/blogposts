@@ -40,6 +40,12 @@ nmcli device show [eth]
 
 # Open ports in firewall 🚪🔥🧱
 
+View firewall rules which are currently active
+
+```sh
+firewall-cmd --list-all
+```
+
 Command for opening ports 
 
 ```sh
