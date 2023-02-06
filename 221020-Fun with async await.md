@@ -26,12 +26,12 @@ There is a lot of debate on this topic whether `ValueTask` should be used almost
 
 ## Return `Task` instead of awaiting
 
-Consider simply returning the task instead of awaiting. The method consumer needs to await the `Task` in the end resulting in one less context switch.  
+Consider simply returning the task instead of awaiting when possible. The method consumer needs to await the `Task` in the end resulting in one less context switch.  
 
 ```cs
 Task<string> GetStringData()
 {
-    return httpClient.GetStringAsync("..").ConfigureAwait(false);  
+    return httpClient.GetStringAsync("..");  
 }
 ```
 

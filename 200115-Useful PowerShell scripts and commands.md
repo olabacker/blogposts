@@ -15,7 +15,7 @@ shutdown -r -fw -f -t 0
 
 ## Copy output
 
-```
+```sh
 [any command giving output] | clip 
 ```
 
@@ -72,20 +72,26 @@ Alias for Get-Content
 cat [FileName]
 ```
 
+cat also has head and tail functions to fetch start and end lines of files.
+
+```sh
+cat [FileName] -{Tail/Head} 5
+```
+
+
 ## ls
 
-Alias for Get-ChildItem
+Alias for Get-ChildItem, displays items in working directory
+
+```sh
+ls 
+```
+
+To filter for specific files add the `filter` parameter
 
 ```sh
 ls -Filter [SearchPattern]
 ```
 
-## ni
-
-Alias for New-Item
-
-```sh
-ni [FileName]
-```
 
 
