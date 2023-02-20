@@ -332,5 +332,16 @@
       "nuget"
     ],
     "DateTime": "2022-12-21T00:00:00"
+  },
+  {
+    "Id": "Automate nuget deployment",
+    "Title": "Automate nuget deployment",
+    "FilePathName": "230220-Automate nuget deployment.md",
+    "Description": "📦Publish nuget packages easily through github actions  ",
+    "Tags": [
+      "nuget",
+      "ghactions"
+    ],
+    "DateTime": "2023-02-20T00:00:00"
   }
 ]
