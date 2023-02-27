@@ -83,3 +83,7 @@ app.MapGet("/swag", () => "Hello Swagger!");
 
 app.Run();
 ```
+
+## Conclusion
+
+The minimal api syntax is a great way to quickly create a simple api. It is easy to use and has a lot of potential. It is also a great way to learn how to use the new features in .NET 6.0.

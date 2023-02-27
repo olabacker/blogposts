@@ -1,5 +1,14 @@
 The most useful extension methods! 🪄 | [dotnet] [c#]
 
+# Extension methods
+
+
+# When to use extension methods
+
+Extension methods are a great way to add functionality to existing classes without having to inherit from them. This is useful when you want to add functionality to a class that you don't have access to or don't want to inherit from.
+
+It is also a great way to add certain functionality to classes in certain contexts. For example, you can add a method to a class that is only available in a certain namespace.
+
 
 # Generic static methods
 
@@ -29,39 +38,39 @@ Get a random element from an enumeration
 
 ```cs
  public static T RandomFirst<T>(this IEnumerable<T> sequence)
+{
+    var random = new Random((int)DateTime.Now.Ticks);
+
+    if (sequence == null)
     {
-        var random = new Random((int)DateTime.Now.Ticks);
-
-        if (sequence == null)
-        {
-            throw new ArgumentNullException(nameof(sequence));
-        }
-
-        if (!sequence.Any())
-        {
-            throw new ArgumentException("The sequence is empty.");
-        }
-
-        //optimization for ICollection<T>
-        if (sequence is ICollection<T> col)
-        {
-            return col.ElementAt(random.Next(col.Count));
-        }
-
-        var count = 1;
-        var selected = default(T);
-
-        foreach (var element in sequence)
-        {
-            if (random.Next(count++) == 0)
-            {
-                //Select the current element with 1/count probability
-                selected = element;
-            }
-        }
-
-        return selected;
+        throw new ArgumentNullException(nameof(sequence));
     }
+
+    if (!sequence.Any())
+    {
+        throw new ArgumentException("The sequence is empty.");
+    }
+
+    //optimization for ICollection<T>
+    if (sequence is ICollection<T> col)
+    {
+        return col.ElementAt(random.Next(col.Count));
+    }
+
+    var count = 1;
+    var selected = default(T);
+
+    foreach (var element in sequence)
+    {
+        if (random.Next(count++) == 0)
+        {
+            //Select the current element with 1/count probability
+            selected = element;
+        }
+    }
+
+    return selected;
+}
 ```
 
 ## Shuffle

@@ -53,6 +53,6 @@ The same result can be achieved if using a nuspec instead by including the dll m
 </package>
 ```
 
-## Resolution
+## Result
 
 After packaging the nuget with either approach, it will contain the referenced projects as dlls and will be usable by the package consumer.
