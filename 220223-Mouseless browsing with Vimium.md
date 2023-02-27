@@ -20,7 +20,7 @@ While many software engineers are keen on using only their keyboards only during
 
 # Conclusion 
 
-This extension really allowed me to actually put the mouse aside in the common workflows. 
+This extension really allowed me to actually put the mouse aside in the common workflows. I would recommend it to anyone who is looking to improve their keyboard only browsing experience.
 
 
 

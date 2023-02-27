@@ -38,3 +38,13 @@ var generic = method
     .MakeGenericMethod(coolRuntimeType)
     .Invoke(instanceOfCoolClass, args);
 ```
+
+## Get all properties of a type
+
+```cs
+var properties = typeof(CoolClass)
+    .GetProperties(
+        BindingFlags.Instance |
+        BindingFlags.Public
+    );
+```

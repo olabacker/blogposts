@@ -94,4 +94,50 @@ ls -Filter [SearchPattern]
 ```
 
 
+## cd
 
+Alias for Set-Location, changes working directory
+
+```sh
+cd [Path]
+```
+
+## pwd
+
+Alias for Get-Location, displays working directory
+
+```sh
+pwd
+```
+
+## rm
+
+Alias for Remove-Item, removes files and directories
+
+```sh
+rm [Path]
+```
+
+## mkdir
+
+Alias for New-Item, creates a directory
+
+```sh
+mkdir [Path]
+```
+
+## cp
+
+Alias for Copy-Item, copies files and directories
+
+```sh
+cp [Path] [Destination]
+```
+
+## mv
+
+Alias for Move-Item, moves files and directories
+
+```sh
+mv [Path] [Destination]
+```

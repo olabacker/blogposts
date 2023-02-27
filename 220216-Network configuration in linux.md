@@ -86,3 +86,11 @@ Set the hostname to what you like with the following command.
 ```sh
 hostnamectl set-hostname '[new hostname]'
 ```
+
+## Set hostname permanently
+
+To set the hostname permanently, edit the file `/etc/hostname` and change the hostname to what you like.
+
+```sh
+nano /etc/hostname
+```

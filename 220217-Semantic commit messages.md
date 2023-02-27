@@ -56,3 +56,6 @@ git log --oneline --grep "^feat"
 
 These commits could lay ground for the ci/cd process. An example is where `feat` commit may increase a major/minor of the version automatically, `fix` increases re other types may increase patch/build/revision numbers of the version.
 
+## Changelogs
+
+Semantic commits can be used to generate changelogs. This is a very useful feature for open source projects, but also for internal projects.

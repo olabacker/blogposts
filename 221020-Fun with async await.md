@@ -50,3 +50,15 @@ async Task<string> GetStringData()
     }
 }
 ```
+
+## Async void
+
+`async void` is a bad practice. It is not possible to `await` an `async void` method. It is also not possible to catch exceptions thrown in an `async void` method. The method will simply crash the application. Avoid using `async void` at all costs.
+
+```cs
+async void DoSomething()
+{
+    await httpClient.GetStringAsync("..");
+}
+```
+
