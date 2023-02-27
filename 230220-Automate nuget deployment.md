@@ -70,4 +70,4 @@ jobs:
 gh workflow run
 ```
 
-You get to set the version and then the workflow will run and deploy the package to nuget.org.
+You get to set the version and then the workflow will run and deploy the package to nuget.org. 

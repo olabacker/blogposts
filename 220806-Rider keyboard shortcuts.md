@@ -11,7 +11,6 @@ Lists available commands and its associated keyboard shortcut
 ```
 This is making it way easier to remember the shortcuts since you can search for the command and view the shortcut in the menu.
 
-
 ## Navigation
 
 
@@ -43,3 +42,4 @@ This is making it way easier to remember the shortcuts since you can search for 
 ```sh
 'Ctrl' + 'Ctrl'
 ```
+
