@@ -49,7 +49,7 @@ if ($host.Name -eq 'ConsoleHost')
 
 Open settings in Windows Terminal and set the font to the one you downloaded.
 
-**CaskaydiaCove Nerd Font**
+I use `CaskaydiaCove Nerd Font` myself.
 
 # Result
 

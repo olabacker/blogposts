@@ -34,3 +34,4 @@ It is now allowed to have interpolated strings as const.
 const string S1 = $"Hello";
 const string S2 = $"{S1}, welcome!";
 ```
+

@@ -30,7 +30,7 @@ While starting up the processes alot of objects are loaded into memory, specific
 
 ## Stack vs Heap allocation
 
-Whilst many developers know the difference of datatypes being stored on either the heap or stack depending on different 
+Whilst many developers know the difference of datatypes being stored on either the heap or stack depending on different factors there are some things which are not as obvious.
 
 |Type        |Allocation    |
 | -----------|--------------
@@ -41,7 +41,13 @@ Whilst many developers know the difference of datatypes being stored on either t
 | value type declared as member of struct | where the parent is allocated|
 | ref struct | stack | 
 
-<!-- ## Empty collections -->
+## Empty collections 
+
+In many cases we had empty collections being created and then discarded 
+
+When using `Enumerable.Empty<T>()` it will return a singleton instance of an empty collection. This is a great way to avoid unnecessary allocations.
+
+
 
 
 
@@ -87,3 +93,4 @@ class Metadata
 ```
 
 This caused no extra string duplication at all vastly lowering memory usage by these objects and some speed performance as well due to the fewer allocations.
+
