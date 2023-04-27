@@ -18,7 +18,7 @@ Required ports for a docker swarm node to function properly
 * UDP `7946`
 * UDP `4789`
 
-## Docker cleanup
+## Cleanup disk space
 
 If docker is taking too much space a system prune might be a good idea.
 
@@ -33,6 +33,21 @@ This cleans
 * all images without at least one container associated to them
 * all build cache
 
+
+## Restrict log size
+
+To restrict the size of the log files created by docker, add the following to the daemon.json file located in `/etc/docker/daemon.json`.
+
+```json
+{
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  }
+}
+```
+
 ## Enter a container
 
 Command for entering a shell inside the container
@@ -40,6 +55,8 @@ Command for entering a shell inside the container
 ```sh
 docker exec -it [CONTAINER] sh
 ```
+
+
 
 ## Specify port on target host
 
