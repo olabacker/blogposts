@@ -1,4 +1,4 @@
-Guide to initialize and use the css framework Tailwind in Blazor | [tailwind] [blazor]
+Guide to initialize and use the css framework Tailwind in Blazor | [tailwind] [blazor] [css]
 
 This guide uses the standalone CLI of tailwind which needs to be downloaded from [here](https://tailwindcss.com/blog/standalone-cli). The initial step to integrate Tailwind is to execute the following command below in the root folder of the blazor project.
 
