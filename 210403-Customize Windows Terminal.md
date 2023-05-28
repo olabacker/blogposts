@@ -30,18 +30,38 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 Open Powershell profile settings with 'code $PROFILE' and paste the following.
 
 ```powershell
-Import-Module posh-git
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/olabacker/ohmyposh/master/config.json' | Invoke-Expression
-Import-Module -Name Terminal-Icons
-$env:POSH_GIT_ENABLED = $true
-
-if ($host.Name -eq 'ConsoleHost')
+function Run-Step([string] $Description, [ScriptBlock]$script)
 {
+  Write-Host  -NoNewline "Loading " $Description.PadRight(20)
+  & $script
+  Write-Host "`u{2705}" # checkmark emoji
+}
+
+Run-Step "Posh-Git" {
+    Import-Module posh-git
+    $env:POSH_GIT_ENABLED = $true
+  }
+
+Run-Step "oh-my-posh" {
+    oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/olabacker/ohmyposh/master/config.json' | Invoke-Expression
+  }
+
+Run-Step "terminal-icons" {
+    Import-Module -Name Terminal-Icons
+}
+
+
+if ($host.Name -eq 'ConsoleHost') {
     Import-Module PSReadLine
     Set-PSReadLineOption -PredictionSource History
     Set-PSReadLineOption -PredictionViewStyle ListView
     Set-PSReadLineOption -EditMode Windows
     Set-PSReadLineKeyHandler -Key Ctrl+d -Function KillLine
+}
+
+function pjson ($jsonfile) {
+    (get-content $jsonfile) | convertfrom-json | convertto-json -depth 100 | 
+    set-content $jsonfile
 }
 ```
 
