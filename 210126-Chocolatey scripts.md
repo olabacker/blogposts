@@ -24,7 +24,14 @@ choco install vscode
 choco install steam 
 choco install discord 
 choco install gitkraken 
-choco install 7zip 
 choco install slack 
 ```
 
+
+
+Bitwarden
+Dark reader
+I don't care about cookies
+uBlock origin
+Stylus
+Vimium
