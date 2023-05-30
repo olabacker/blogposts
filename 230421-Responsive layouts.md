@@ -1,7 +1,5 @@
 Responsive layouts | [css]
 
-## Cluster
-
 <style>
   .parent {
     outline: 2px solid hotpink;
@@ -52,7 +50,7 @@ Responsive layouts | [css]
 }
   </style>
 
-<!-- explain what this does -->
+## Cluster
 
 <div class="parent cluster">
   <div class="child">The</div>
@@ -75,6 +73,7 @@ Responsive layouts | [css]
   <div class="child">.</div>
 </div>
 
+The cluster will simply wrap the children and use the least amount of space possible but will not grow to fill the available space.
 
 ```css
 .cluster {
@@ -108,6 +107,8 @@ Responsive layouts | [css]
   <div class="child">.</div>
 </div>
 
+Create a grid automatically with a minimum column size.
+
 ```css
 .auto-grid {
   --min-col-size: 22rem;
@@ -139,6 +140,8 @@ Responsive layouts | [css]
   <div class="child">coming</div>
   <div class="child">.</div>
 </div>
+
+Same as cluster but the children will grow to fill the available space.
 
 ```css
 .flexible-grid {
@@ -174,6 +177,8 @@ Responsive layouts | [css]
   <div class="child">coming</div>
   <div class="child">.</div>
 </div>
+
+Creates a horizontal scrollable reel with scroll snapping.
 
 ```css
 .reel{
