@@ -20,7 +20,7 @@ Responsive layouts | [css]
     gap: 1rem;
 }
 .auto-grid {
-  --min-col-size: 22rem;
+  --min-col-size: 5rem;
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(var(--min-col-size), 1fr));
