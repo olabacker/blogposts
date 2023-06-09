@@ -354,5 +354,15 @@
       "css"
     ],
     "DateTime": "2023-04-21T00:00:00"
+  },
+  {
+    "Id": "Traefik",
+    "Title": "Traefik",
+    "FilePathName": "230609-Traefik.md",
+    "Description": "Using traefik to serve certificate and simple routing ",
+    "Tags": [
+      "trafik"
+    ],
+    "DateTime": "2023-06-09T00:00:00"
   }
 ]
