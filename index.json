@@ -335,6 +335,16 @@
     "DateTime": "2022-12-21T00:00:00"
   },
   {
+    "Id": "Blazor rendering performance benchmarking",
+    "Title": "Blazor rendering performance benchmarking",
+    "FilePathName": "230111-Blazor rendering performance benchmarking.md",
+    "Description": "Methods for benchmarking rendering performance in blazor components ",
+    "Tags": [
+      "blazor"
+    ],
+    "DateTime": "2023-01-11T00:00:00"
+  },
+  {
     "Id": "Automate nuget deployment",
     "Title": "Automate nuget deployment",
     "FilePathName": "230220-Automate nuget deployment.md",
@@ -354,6 +364,14 @@
       "css"
     ],
     "DateTime": "2023-04-21T00:00:00"
+  },
+  {
+    "Id": "Golden git goodies",
+    "Title": "Golden git goodies",
+    "FilePathName": "230527-Golden git goodies.md",
+    "Description": "",
+    "Tags": [],
+    "DateTime": "2023-05-27T00:00:00"
   },
   {
     "Id": "Traefik",
