@@ -1,4 +1,4 @@
-Responsive layouts | [css]
+Responsive layouts in css which are useful in many scenarios | [css]
 
 <style>
   .parent {

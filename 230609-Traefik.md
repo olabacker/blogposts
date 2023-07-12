@@ -1,4 +1,4 @@
-Using traefik to serve certificate and routing | [traefik]
+Using traefik to serve certificate and routing | [docker] [traefik]
 
 ## Introduction
 
