@@ -377,9 +377,9 @@
     "Id": "Traefik",
     "Title": "Traefik",
     "FilePathName": "230609-Traefik.md",
-    "Description": "Using traefik to serve certificate and simple routing ",
+    "Description": "Using traefik to serve certificate and routing ",
     "Tags": [
-      "trafik"
+      "traefik"
     ],
     "DateTime": "2023-06-09T00:00:00"
   }
