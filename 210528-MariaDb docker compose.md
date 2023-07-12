@@ -1,4 +1,4 @@
-Simple compose file for maria db.
+Simple compose file for maria db. | [docker]
 
 ```yml
 version: '3.8'

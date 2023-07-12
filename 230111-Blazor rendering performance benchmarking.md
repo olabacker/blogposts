@@ -2,6 +2,8 @@ Methods for benchmarking rendering performance in blazor components | [blazor]
 
 ## Quick method 
 
+Quick and dirty method for measuring rendering performance in blazor components
+
 ```cs
 @code 
 {
@@ -27,7 +29,7 @@ Methods for benchmarking rendering performance in blazor components | [blazor]
 
 ## Precise method
 
-[Using Benchmark.Blazor](https://github.com/egil/Benchmark.Blazor)
+Precise method for measuring rendering performance in blazor components [using Benchmark.Blazor](https://github.com/egil/Benchmark.Blazor)
 
 ```cs
 var services = new ServiceCollection();
