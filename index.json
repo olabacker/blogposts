@@ -368,16 +368,6 @@
     "DateTime": "2023-04-21T00:00:00"
   },
   {
-    "Id": "Golden git goodies",
-    "Title": "Golden git goodies",
-    "FilePathName": "230527-Golden git goodies.md",
-    "Description": "Useful git stuff ",
-    "Tags": [
-      "git"
-    ],
-    "DateTime": "2023-05-27T00:00:00"
-  },
-  {
     "Id": "Traefik",
     "Title": "Traefik",
     "FilePathName": "230609-Traefik.md",
