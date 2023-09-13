@@ -89,8 +89,10 @@
     "Id": "MariaDb docker compose",
     "Title": "MariaDb docker compose",
     "FilePathName": "210528-MariaDb docker compose.md",
-    "Description": "Simple compose file for maria db.",
-    "Tags": [],
+    "Description": "Simple compose file for maria db. ",
+    "Tags": [
+      "docker"
+    ],
     "DateTime": "2021-05-28T00:00:00"
   },
   {
@@ -359,19 +361,11 @@
     "Id": "Responsive layouts",
     "Title": "Responsive layouts",
     "FilePathName": "230421-Responsive layouts.md",
-    "Description": "Responsive layouts ",
+    "Description": "Responsive layouts in css which are useful in many scenarios ",
     "Tags": [
       "css"
     ],
     "DateTime": "2023-04-21T00:00:00"
-  },
-  {
-    "Id": "Golden git goodies",
-    "Title": "Golden git goodies",
-    "FilePathName": "230527-Golden git goodies.md",
-    "Description": "",
-    "Tags": [],
-    "DateTime": "2023-05-27T00:00:00"
   },
   {
     "Id": "Traefik",
@@ -379,6 +373,7 @@
     "FilePathName": "230609-Traefik.md",
     "Description": "Using traefik to serve certificate and routing ",
     "Tags": [
+      "docker",
       "traefik"
     ],
     "DateTime": "2023-06-09T00:00:00"
