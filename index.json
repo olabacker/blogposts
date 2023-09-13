@@ -377,5 +377,15 @@
       "traefik"
     ],
     "DateTime": "2023-06-09T00:00:00"
+  },
+  {
+    "Id": "Steam deck ssh",
+    "Title": "Steam deck ssh",
+    "FilePathName": "230913-Steam deck ssh.md",
+    "Description": "Enable ssh on steam deck to enable remote access ",
+    "Tags": [
+      "steamdeck"
+    ],
+    "DateTime": "2023-09-13T00:00:00"
   }
 ]
