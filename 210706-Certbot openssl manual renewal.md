@@ -6,10 +6,10 @@ This is a quick guide on how to create a pfx file with openssl by using the manu
 
 ## Create cert with certbot manually
 
-Certbot is a tool for creating and renewing certificates. It can be used to create a certificate manually by using the dns challenge. This is done by creating a txt record in the dns zone of the domain. The txt record contains a token which is used to verify the ownership of the domain.
+Certbot is a tool for creating and renewing certificates. It can be used to create a certificate manually by using the dns challenge. This is done by creating a txt record in the dns zone of the domain. The txt record contains a token which is used to verify the ownership of the domain.  
 
 ```sh
-certbot certonly --manual --key-type rsa
+certbot certonly --manual --key-type rsa 
 ```
 
 ## Create pfx from cert and key
