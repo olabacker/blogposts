@@ -395,5 +395,15 @@
     "Description": "Subtle css animations",
     "Tags": [],
     "DateTime": "2024-03-18T00:00:00"
+  },
+  {
+    "Id": "Scalar ui",
+    "Title": "Scalar ui",
+    "FilePathName": "240529-Scalar ui.md",
+    "Description": "Enable scalar ui in asp net 9 ",
+    "Tags": [
+      "aspnet"
+    ],
+    "DateTime": "2024-05-29T00:00:00"
   }
 ]
