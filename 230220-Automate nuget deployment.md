@@ -15,7 +15,12 @@ When you have decided the project which should be published as a nuget package i
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<Authors>Ola Bäcker</Authors>
 	<Owners>olabacker</Owners>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
 </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 ```
 
 If the package icon is not an url, you should make sure the csproj understand that it should be included in the project.
@@ -50,10 +55,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
 
       - name: Build package
         run: dotnet pack ./[csproj path] -p:PackageVersion=${{inputs.version}}  --configuration Release
