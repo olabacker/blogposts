@@ -254,10 +254,10 @@
     "DateTime": "2022-08-06T00:00:00"
   },
   {
-    "Id": "Linux process managing",
-    "Title": "Linux process managing",
-    "FilePathName": "220812-Linux process managing.md",
-    "Description": "Commands for basic process managing in linux ",
+    "Id": "Linux commands",
+    "Title": "Linux commands",
+    "FilePathName": "220812-Linux commands.md",
+    "Description": "Commands cheat sheet for linux ",
     "Tags": [
       "linux"
     ],
