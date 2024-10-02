@@ -1,8 +1,4 @@
-Extension for browsing the web with keyboard only ⌨️
-
-While many software engineers are keen on using only their keyboards only during work browsing the web is usually more tedious when trying to tab through pages to reach a certain link.
-
-# Vimium
+Extension for browsing the web with keyboard only ⌨️ | [extensions]
 
 [Vimium](https://github.com/philc/vimium) is a browser extension for browsing the web without using keyboard giving a similar experience to using vim.
 

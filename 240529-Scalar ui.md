@@ -1,4 +1,4 @@
-Enable scalar ui in asp net 9 | [aspnet]
+Enable scalar ui in asp net 9 | [aspnet] [openapi]
 
 Since swagger is not included in asp net 9 by default, you have to manually add ui for the api. You can use the scalar ui to display the open api documentation in a nice way and without having to install any nuget packages.
 
