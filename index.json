@@ -237,9 +237,9 @@
     "DateTime": "2022-02-17T00:00:00"
   },
   {
-    "Id": "C# 11 raw string literal",
-    "Title": "C# 11 raw string literal",
-    "FilePathName": "220218-C# 11 raw string literal.md",
+    "Id": "C# raw string literal",
+    "Title": "C# raw string literal",
+    "FilePathName": "220218-C# raw string literal.md",
     "Description": "Raw string literal ",
     "Tags": [
       "c#"
@@ -381,9 +381,9 @@
     "DateTime": "2022-11-09T00:00:00"
   },
   {
-    "Id": "Docker .NET7 integrated",
-    "Title": "Docker .NET7 integrated",
-    "FilePathName": "221206-Docker .NET7 integrated.md",
+    "Id": "Docker .NET integrated",
+    "Title": "Docker .NET integrated",
+    "FilePathName": "221206-Docker .NET integrated.md",
     "Description": "Build docker images in .NET without a dockerfile ",
     "Tags": [
       "docker",
