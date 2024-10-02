@@ -10,14 +10,34 @@
     "DateTime": "2019-11-17T00:00:00"
   },
   {
-    "Id": "Useful PowerShell scripts and commands",
-    "Title": "Useful PowerShell scripts and commands",
-    "FilePathName": "200115-Useful PowerShell scripts and commands.md",
-    "Description": "Small compilation of powershell commands ",
+    "Id": "Pwsh toggle adapter script",
+    "Title": "Pwsh toggle adapter script",
+    "FilePathName": "200211-Pwsh toggle adapter script.md",
+    "Description": "Toggle ethernet adapter ",
     "Tags": [
       "pwsh"
     ],
-    "DateTime": "2020-01-15T00:00:00"
+    "DateTime": "2020-02-11T00:00:00"
+  },
+  {
+    "Id": "Design patterns",
+    "Title": "Design patterns",
+    "FilePathName": "200401-Design patterns.md",
+    "Description": "Design patterns ",
+    "Tags": [
+      "cs"
+    ],
+    "DateTime": "2020-04-01T00:00:00"
+  },
+  {
+    "Id": "Pwsh ",
+    "Title": "Pwsh ",
+    "FilePathName": "200401-Pwsh .md",
+    "Description": "Powershell commands for shutdown/restart ",
+    "Tags": [
+      "pwsh"
+    ],
+    "DateTime": "2020-04-01T00:00:00"
   },
   {
     "Id": "Mysql cmds",
@@ -119,16 +139,6 @@
     "DateTime": "2021-01-26T00:00:00"
   },
   {
-    "Id": "Dotnet cli cheat sheet",
-    "Title": "Dotnet cli cheat sheet",
-    "FilePathName": "210201-Dotnet cli cheat sheet.md",
-    "Description": "Some useful dotnet cli commands ",
-    "Tags": [
-      "dotnet"
-    ],
-    "DateTime": "2021-02-01T00:00:00"
-  },
-  {
     "Id": "Reflection",
     "Title": "Reflection",
     "FilePathName": "210312-Reflection.md",
@@ -227,14 +237,24 @@
     "DateTime": "2022-02-17T00:00:00"
   },
   {
-    "Id": "C# 11 features",
-    "Title": "C# 11 features",
-    "FilePathName": "220218-C# 11 features.md",
-    "Description": "Bang bang (!!) operator 🤠 ",
+    "Id": "C# 11 raw string literal",
+    "Title": "C# 11 raw string literal",
+    "FilePathName": "220218-C# 11 raw string literal.md",
+    "Description": "Raw string literal ",
     "Tags": [
       "c#"
     ],
     "DateTime": "2022-02-18T00:00:00"
+  },
+  {
+    "Id": "C# field keyword",
+    "Title": "C# field keyword",
+    "FilePathName": "220220-C# field keyword.md",
+    "Description": "Field keyword ",
+    "Tags": [
+      "c#"
+    ],
+    "DateTime": "2022-02-20T00:00:00"
   },
   {
     "Id": "Mouseless browsing with Vimium",
@@ -308,14 +328,16 @@
     "DateTime": "2022-08-16T00:00:00"
   },
   {
-    "Id": "Memory leak fixing in .NET",
-    "Title": "Memory leak fixing in .NET",
-    "FilePathName": "221010-Memory leak fixing in .NET.md",
-    "Description": "Memory leak fixing 🌊 ",
+    "Id": ".NET Memory allocations",
+    "Title": ".NET Memory allocations",
+    "FilePathName": "221001-.NET Memory allocations.md",
+    "Description": "Stack vs heap allocations ",
     "Tags": [
-      "dotnet"
+      ".net",
+      "c#",
+      "memory"
     ],
-    "DateTime": "2022-10-10T00:00:00"
+    "DateTime": "2022-10-01T00:00:00"
   },
   {
     "Id": "Markdown cheat sheet",
@@ -430,6 +452,17 @@
       "steamdeck"
     ],
     "DateTime": "2023-09-13T00:00:00"
+  },
+  {
+    "Id": "Blazor NavigationManager",
+    "Title": "Blazor NavigationManager",
+    "FilePathName": "240120-Blazor NavigationManager.md",
+    "Description": "NavigationManager methods ",
+    "Tags": [
+      "c#",
+      "blazor"
+    ],
+    "DateTime": "2024-01-20T00:00:00"
   },
   {
     "Id": "Subtle css animations",
