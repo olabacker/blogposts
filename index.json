@@ -1,15 +1,5 @@
 [
   {
-    "Id": "C# 8 features",
-    "Title": "C# 8 features",
-    "FilePathName": "190905-C# 8 features.md",
-    "Description": "Switch expression, indices and ranges ",
-    "Tags": [
-      "c#"
-    ],
-    "DateTime": "2019-09-05T00:00:00"
-  },
-  {
     "Id": "Http status codes",
     "Title": "Http status codes",
     "FilePathName": "191117-Http status codes.md",
@@ -40,6 +30,24 @@
     "DateTime": "2020-08-05T00:00:00"
   },
   {
+    "Id": "Docker swarm host ports",
+    "Title": "Docker swarm host ports",
+    "FilePathName": "201114-Docker swarm host ports.md",
+    "Description": " Specify port on target host",
+    "Tags": [],
+    "DateTime": "2020-11-14T00:00:00"
+  },
+  {
+    "Id": "Docker swarm host gateway",
+    "Title": "Docker swarm host gateway",
+    "FilePathName": "201115-Docker swarm host gateway.md",
+    "Description": "Enable localhost communication in docker compose ",
+    "Tags": [
+      "docker"
+    ],
+    "DateTime": "2020-11-15T00:00:00"
+  },
+  {
     "Id": "Docker commands",
     "Title": "Docker commands",
     "FilePathName": "201117-Docker commands.md",
@@ -48,6 +56,49 @@
       "docker"
     ],
     "DateTime": "2020-11-17T00:00:00"
+  },
+  {
+    "Id": "Docker registry cleanup",
+    "Title": "Docker registry cleanup",
+    "FilePathName": "201117-Docker registry cleanup.md",
+    "Description": "Garbage collection in a private docker registry ",
+    "Tags": [
+      "docker",
+      "registry"
+    ],
+    "DateTime": "2020-11-17T00:00:00"
+  },
+  {
+    "Id": "Docker swarm ports",
+    "Title": "Docker swarm ports",
+    "FilePathName": "201118-Docker swarm ports.md",
+    "Description": "Port requirements for Docker swarm ",
+    "Tags": [
+      "docker",
+      "swarm"
+    ],
+    "DateTime": "2020-11-18T00:00:00"
+  },
+  {
+    "Id": "Docker cleanup",
+    "Title": "Docker cleanup",
+    "FilePathName": "201119-Docker cleanup.md",
+    "Description": "Command to cleanup docker images and containers ",
+    "Tags": [
+      "docker"
+    ],
+    "DateTime": "2020-11-19T00:00:00"
+  },
+  {
+    "Id": "Docker restrict log size",
+    "Title": "Docker restrict log size",
+    "FilePathName": "201120-Docker restrict log size.md",
+    "Description": "Docker restrict log size ",
+    "Tags": [
+      "docker",
+      "log"
+    ],
+    "DateTime": "2020-11-20T00:00:00"
   },
   {
     "Id": "Creating a dotnet tool",
@@ -124,26 +175,6 @@
     "DateTime": "2021-08-15T00:00:00"
   },
   {
-    "Id": "C# 10 features",
-    "Title": "C# 10 features",
-    "FilePathName": "211025-C# 10 features.md",
-    "Description": "Global usings, file scoped namespace and const interpolated strings ",
-    "Tags": [
-      "c#"
-    ],
-    "DateTime": "2021-10-25T00:00:00"
-  },
-  {
-    "Id": "New .NET 6 apis",
-    "Title": "New .NET 6 apis",
-    "FilePathName": "211026-New .NET 6 apis.md",
-    "Description": "New notable apis in dotnet6 like DateOnly, TimeOnly, Parallel.ForEachAsync and PeriodicTimer ",
-    "Tags": [
-      "dotnet"
-    ],
-    "DateTime": "2021-10-26T00:00:00"
-  },
-  {
     "Id": "Git gud",
     "Title": "Git gud",
     "FilePathName": "211108-Git gud.md",
@@ -209,8 +240,10 @@
     "Id": "Mouseless browsing with Vimium",
     "Title": "Mouseless browsing with Vimium",
     "FilePathName": "220223-Mouseless browsing with Vimium.md",
-    "Description": "Extension for browsing the web with keyboard only ⌨️",
-    "Tags": [],
+    "Description": "Extension for browsing the web with keyboard only ⌨️ ",
+    "Tags": [
+      "extensions"
+    ],
     "DateTime": "2022-02-23T00:00:00"
   },
   {
@@ -264,9 +297,9 @@
     "DateTime": "2022-08-12T00:00:00"
   },
   {
-    "Id": "Extension method magic",
-    "Title": "Extension method magic",
-    "FilePathName": "220816-Extension method magic.md",
+    "Id": "Extension methods",
+    "Title": "Extension methods",
+    "FilePathName": "220816-Extension methods.md",
     "Description": "The most useful extension methods! 🪄 ",
     "Tags": [
       "dotnet",
@@ -368,9 +401,9 @@
     "DateTime": "2023-02-20T00:00:00"
   },
   {
-    "Id": "Responsive layouts",
-    "Title": "Responsive layouts",
-    "FilePathName": "230421-Responsive layouts.md",
+    "Id": "Responsive css layouts",
+    "Title": "Responsive css layouts",
+    "FilePathName": "230421-Responsive css layouts.md",
     "Description": "Responsive layouts in css which are useful in many scenarios ",
     "Tags": [
       "css"
@@ -381,7 +414,7 @@
     "Id": "Traefik",
     "Title": "Traefik",
     "FilePathName": "230609-Traefik.md",
-    "Description": "Using traefik to serve certificate and routing ",
+    "Description": "Using traefik for docker swarm to route and serve certificates ",
     "Tags": [
       "docker",
       "traefik"
@@ -412,7 +445,8 @@
     "FilePathName": "240529-Scalar ui.md",
     "Description": "Enable scalar ui in asp net 9 ",
     "Tags": [
-      "aspnet"
+      "aspnet",
+      "openapi"
     ],
     "DateTime": "2024-05-29T00:00:00"
   }
