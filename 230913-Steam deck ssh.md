@@ -1,7 +1,6 @@
 Enable ssh on steam deck to enable remote access | [steamdeck]
 
-So I want to be able to ssh into my steam deck to configure some stuff. To do it directly on the deck is a bit cumbersome so I want to be able to do it from my computer.
-
+Guide to setup ssh access on steam deck.
 
 ## Set password
 

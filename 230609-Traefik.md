@@ -1,6 +1,4 @@
-Using traefik to serve certificate and routing | [docker] [traefik]
-
-## Introduction
+Using traefik for docker swarm to route and serve certificates | [docker] [traefik]
 
 Traefik is a reverse proxy that can be used to route traffic to different services. It can also be used to serve certificates for the services. It seems to have a good implementation of using ACME to automatically generate and renew certificates from Let's Encrypt, however, I already have a certificate that I want to use. 
 
