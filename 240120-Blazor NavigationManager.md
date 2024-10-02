@@ -1,23 +1,23 @@
-
+NavigationManager methods | [c#] [blazor] 
 
 
 ```
-MyNavigationManager.Uri
+NavigationManager.Uri
 #> https://localhost:5001/counter/3?q=hi
 
-MyNavigationManager.BaseUri
+NavigationManager.BaseUri
 #> https://localhost:5001/
 
-MyNavigationManager.NavigateTo("http://new location")
+NavigationManager.NavigateTo("http://new location")
 #> Navigates to new location
 
-MyNavigationManager.LocationChanged
+NavigationManager.LocationChanged
 #> An event that fires when the navigation location has changed.
 
-MyNavigationManager.ToAbsoluteUri("pepe")
+NavigationManager.ToAbsoluteUri("pepe")
 #> https://localhost:5001/pepe
 
-MyNavigationManager.ToBaseRelativePath(MyNavigationManager.Uri)
+NavigationManager.ToBaseRelativePath(MyNavigationManager.Uri)
 #> counter/3?q=hi
 
 Helper: AddQueryParm( "q2", "bye" ) // (*1)

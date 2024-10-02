@@ -114,6 +114,20 @@ public static DateTime Next(this DateTime @this, DayOfWeek dayOfWeek)
 }
 ```
 
+## IterateUntil
+
+```cs
+public static T IterateUntil<T>(T seed, Func<T, T> func, Func<T, bool> predicate)
+{
+    var current = seed;
+    while (!predicate(current))
+    {
+        current = func(current);
+    }
+    return current;
+}
+```
+
 
 # Conclusion
 
