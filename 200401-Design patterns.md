@@ -13,6 +13,7 @@ The Observer pattern allows objects to be notified when the state of another obj
 This pattern allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class. It is often used to add new functionality to an existing class without changing its source code.
 
 ## Factory
+
 This pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. It is often used to create objects that belong to a particular class hierarchy.
 
 ## Command
