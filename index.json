@@ -482,5 +482,15 @@
       "openapi"
     ],
     "DateTime": "2024-05-29T00:00:00"
+  },
+  {
+    "Id": "Compiled delegate reflection",
+    "Title": "Compiled delegate reflection",
+    "FilePathName": "250304-Compiled delegate reflection.md",
+    "Description": "Improve reflection performance ",
+    "Tags": [
+      "c#"
+    ],
+    "DateTime": "2025-03-04T00:00:00"
   }
 ]
