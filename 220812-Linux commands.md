@@ -15,6 +15,11 @@ rm -r /path/to/directory # Remove directory and contents
 touch /path/to/file # Create file
 cp /path/to/file /path/to/destination # Copy file
 mv /path/to/file /path/to/destination # Move file
+cat /path/to/file # Show file contents
+less /path/to/file # Show file contents with paging
+more /path/to/file # Show file contents with paging
+head /path/to/file # Show first lines of file
+tail /path/to/file # Show last lines of file
 ```
 
 # SSH
